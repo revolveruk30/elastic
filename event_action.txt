@@ -1,0 +1,136 @@
+﻿      35 | event.action: process create
+      19 | event.action: network connection detected
+      12 | event.action: image loaded
+      11 | event.action: executed
+       9 | event.action: userloginfailed
+       7 | event.action: enforce_strong_authentication
+       6 | event.action: change_application_setting
+       6 | event.action: consolelogin
+       5 | event.action: deleterule
+       5 | event.action: new-inboxrule
+       4 | event.action: cred_theft_event
+       4 | event.action: deletedbcluster
+       4 | event.action: directory service changes
+       4 | event.action: exploit_event
+       4 | event.action: file_classification_event
+       4 | event.action: kernel_shellcode_event
+       4 | event.action: modification
+       4 | event.action: ransomware_event
+       4 | event.action: storage.buckets.update
+       4 | event.action: storage.setiampermissions
+       4 | event.action: token_manipulation_event
+       4 | event.action: token_protection_event
+       4 | event.action: updateassumerolepolicy
+       4 | event.action: v*.compute.routes.insert
+       3 | event.action: add-mailboxpermission
+       3 | event.action: authorizesecuritygroupegress
+       3 | event.action: connected-to
+       3 | event.action: google.iam.admin.v*.createrole
+       3 | event.action: google.iam.admin.v*.createserviceaccount
+       3 | event.action: google.iam.admin.v*.createserviceaccountkey
+       3 | event.action: google.iam.admin.v*.deleterole
+       3 | event.action: google.iam.admin.v*.deleteserviceaccount
+       3 | event.action: google.iam.admin.v*.deleteserviceaccountkey
+       3 | event.action: google.iam.admin.v*.disableserviceaccount
+       3 | event.action: google.logging.v*.configservicev*.deletebucket
+       3 | event.action: google.logging.v*.configservicev*.deletesink
+       3 | event.action: google.logging.v*.configservicev*.updatesink
+       3 | event.action: google.pubsub.v*.publisher.createtopic
+       3 | event.action: google.pubsub.v*.publisher.deletetopic
+       3 | event.action: google.pubsub.v*.subscriber.createsubscription
+       3 | event.action: google.pubsub.v*.subscriber.deletesubscription
+       3 | event.action: io.k8s.authorization.rbac.v*.clusterrolebindings.create
+       3 | event.action: v*.compute.networks.delete
+       3 | event.action: v*.compute.routes.delete
+       3 | event.action: zone.update
+       2 | event.action: add_privilege
+       2 | event.action: addusertogroup
+       2 | event.action: application.integration.rate_limit_exceeded
+       2 | event.action: application.policy.sign_on.update
+       2 | event.action: associatevpcwithhostedzone
+       2 | event.action: assumedrole
+       2 | event.action: assumerolewithsaml
+       2 | event.action: create cache security group
+       2 | event.action: createdbcluster
+       2 | event.action: creategroup
+       2 | event.action: createnetworkacl
+       2 | event.action: createroute
+       2 | event.action: createtrafficmirrorfilter
+       2 | event.action: createtrail
+       2 | event.action: creation
+       2 | event.action: deactivatemfadevice
+       2 | event.action: delete cache security group
+       2 | event.action: deletealarms
+       2 | event.action: deletebucketpolicy
+       2 | event.action: deleteconfigrule
+       2 | event.action: deletedetector
+       2 | event.action: deleteflowlogs
+       2 | event.action: deletegroup
+       2 | event.action: deleteloggroup
+       2 | event.action: deletelogstream
+       2 | event.action: deletemounttarget
+       2 | event.action: deletenetworkacl
+       2 | event.action: deletetrail
+       2 | event.action: deletewebacl
+       2 | event.action: disableebsencryptionbydefault
+       2 | event.action: file created
+       2 | event.action: getsessiontoken
+       2 | event.action: load
+       2 | event.action: modified-user-account
+       2 | event.action: passwordrecoveryrequested
+       2 | event.action: policy.rule.update
+       2 | event.action: sendcommand
+       2 | event.action: set-accepteddomain
+       2 | event.action: stopconfigurationrecorder
+       2 | event.action: stopdbcluster
+       2 | event.action: stoplogging
+       2 | event.action: system.email.account_unlock.sent_message
+       2 | event.action: updatetrail
+       1 | event.action: *.compute.firewalls.delete
+       1 | event.action: *.compute.firewalls.insert
+       1 | event.action: *.compute.firewalls.patch
+       1 | event.action: add member to role.
+       1 | event.action: added-member-to-group
+       1 | event.action: alerttriggered
+       1 | event.action: assign_role
+       1 | event.action: audit-log-cleared
+       1 | event.action: authorization policy change
+       1 | event.action: behavior_protection_event
+       1 | event.action: bound-socket
+       1 | event.action: change_group_setting
+       1 | event.action: create_data_transfer_request
+       1 | event.action: create_gmail_setting
+       1 | event.action: createcluster
+       1 | event.action: createdbinstance
+       1 | event.action: createdbsecuritygroup
+       1 | event.action: createinstanceexporttask
+       1 | event.action: deletedbsecuritygroup
+       1 | event.action: disable-safeattachmentrule
+       1 | event.action: disable-safelinksrule
+       1 | event.action: disabledomaintransferlock
+       1 | event.action: logged-in
+       1 | event.action: meeting.created
+       1 | event.action: new-managementroleassignment
+       1 | event.action: new-transportrule
+       1 | event.action: pipe created*
+       1 | event.action: potential ransomware activity
+       1 | event.action: remove-antiphishpolicy
+       1 | event.action: remove-antiphishrule
+       1 | event.action: remove-dlppolicy
+       1 | event.action: remove-malwarefilterpolicy
+       1 | event.action: remove-malwarefilterrule
+       1 | event.action: remove-transportrule
+       1 | event.action: replaceroute
+       1 | event.action: restoredbinstancefromdbsnapshot
+       1 | event.action: service-installed
+       1 | event.action: set- csteamsclientconfiguration
+       1 | event.action: set- cstenantfederationconfiguration
+       1 | event.action: set-dkimsigningconfig
+       1 | event.action: set-mailboxauditbypassassociation
+       1 | event.action: startexporttask
+       1 | event.action: teamstenantsettingchanged
+       1 | event.action: transferdomaintoanotherawsaccount
+       1 | event.action: unusual volume of file deletion
+       1 | event.action: update conditional access policy
+       1 | event.action: updated
+       1 | event.action: user restricted from sending email

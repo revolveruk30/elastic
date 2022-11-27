@@ -1,0 +1,282 @@
+﻿7 | process.args: create
+7 | process.args: delete
+6 | process.args: \\\\*
+5 | process.args: -d
+5 | process.args: -embedding
+5 | process.args: /create
+5 | process.args: /v
+5 | process.args: c: \\perflogs\\*
+5 | process.args: stop
+5 | process.args: tiledatamodelsvc
+4 | process.args: --add
+4 | process.args: -a
+4 | process.args: -c
+4 | process.args: -e
+4 | process.args: ?decode
+4 | process.args: /active directory/*
+4 | process.args: /e: false
+4 | process.args: /ru
+4 | process.args: \\\\tsclient\\*.exe
+4 | process.args: c: \\windows\\temp\\nessus_*.txt
+4 | process.args: clear-eventlog
+4 | process.args: firewall
+4 | process.args: group
+4 | process.args: hklm\\sam
+4 | process.args: import pty; pty.spawn\
+4 | process.args: nvdisplay.containerlocalsystem
+4 | process.args: read
+4 | process.args: save
+4 | process.args: set
+4 | process.args: use
+4 | process.args: usn
+3 | process.args:  /users/*/library/keychains/*
+3 | process.args:  c: \\users\\*
+3 | process.args: -af
+3 | process.args: -attach
+3 | process.args: -downloadfile
+3 | process.args: -dumpfull
+3 | process.args: -ma
+3 | process.args: -n
+3 | process.args: -u
+3 | process.args: ?: \\windows\\diagnostics\\index\\pcwdiagnostic.xml
+3 | process.args: ?: \\windows\\system32\\calluxxprovider.vbs
+3 | process.args: *.delete*
+3 | process.args: *\\ntds.dit
+3 | process.args: *$*
+3 | process.args: *get-wmiobject*
+3 | process.args: *mklink*
+3 | process.args: *win32_shadowcopy*
+3 | process.args: /fullmemdmp
+3 | process.args: /list
+3 | process.args: /s
+3 | process.args: /set
+3 | process.args: /skip
+3 | process.args: /success: disable
+3 | process.args: /text*password
+3 | process.args: \\\\.\\pipe\\*
+3 | process.args: &gt;
+3 | process.args: +h
+3 | process.args: 0x01100*
+3 | process.args: activescripteventconsumer
+3 | process.args: adselfservice_enroll.hta
+3 | process.args: advfirewall
+3 | process.args: bootstatuspolicy
+3 | process.args: c: \\*\\start menu\\programs\\startup\\*.bat*
+3 | process.args: com.apple.iokit.endpointsecurity
+3 | process.args: config
+3 | process.args: copy
+3 | process.args: copy*
+3 | process.args: create*full*
+3 | process.args: deletejournal
+3 | process.args: disabled
+3 | process.args: drives
+3 | process.args: echo
+3 | process.args: elastic-agent
+3 | process.args: elasticendpoint
+3 | process.args: eventlog
+3 | process.args: eventlog-*
+3 | process.args: format*: *
+3 | process.args: fsinfo
+3 | process.args: ignoreallfailures
+3 | process.args: it_rebrowseforfile=*
+3 | process.args: minidump*
+3 | process.args: no
+3 | process.args: objectcategory=computer
+3 | process.args: recoveryenabled
+3 | process.args: set-service
+3 | process.args: shadowcopy
+3 | process.args: shadows*
+3 | process.args: stopservice
+3 | process.args: time
+3 | process.args: unload
+3 | process.args: user
+3 | process.args: uxtheme.dll,#64
+3 | process.args: view
+2 | process.args:  ??: \\program files\\npcap\\checkstatus.bat?
+2 | process.args:  /dclist: *
+2 | process.args:  /users/*/library/application support/google/chrome/default/login data
+2 | process.args:  c: \\windows\\system32\\osk.exe
+2 | process.args:  com.google.googledrive.findersyncapiextension
+2 | process.args:  productversion
+2 | process.args: -- remote-debugging-port=*
+2 | process.args: --remote- debugging-port=0
+2 | process.args: --user-data-dir=*
+2 | process.args: -action
+2 | process.args: -cv*
+2 | process.args: -disable*
+2 | process.args: -f
+2 | process.args: -hp*
+2 | process.args: -i
+2 | process.args: -l
+2 | process.args: -p*
+2 | process.args: -pdf
+2 | process.args: -r
+2 | process.args: -setremotelogin
+2 | process.args: -setwebproxy
+2 | process.args: ?: \\*.bat
+2 | process.args: ?: \\windows\\help\\oem\\scripts\\checkmui.dll
+2 | process.args: ?: \\windows\\inf\\powerplan.log
+2 | process.args: ?: \\windows\\system32\\davclnt.dll,davsetcookie
+2 | process.args: ?: \\windows\\system32\\powercfg.exe
+2 | process.args: ?: \\windows\\system32\\winethc.dll,forceproxydetectiononnextrun
+2 | process.args: .bash_history
+2 | process.args: {*}
+2 | process.args: *: 3389
+2 | process.args: */dev/tcp/*
+2 | process.args: */y*
+2 | process.args: *add- mppreference*-exclusion*
+2 | process.args: *chkconfig
+2 | process.args: /*/application support/com.apple.tcc/tcc.db
+2 | process.args: /ad
+2 | process.args: /add
+2 | process.args: /autoclean
+2 | process.args: /d
+2 | process.args: /d*
+2 | process.args: /dontlog*: *true
+2 | process.args: /dontlog\: \true\
+2 | process.args: /list*
+2 | process.args: /loadsavedwindows
+2 | process.args: /lockscreenurl: http*
+2 | process.args: /namespace: \\\\root\\securitycenter2
+2 | process.args: /private/var/db/systemkey
+2 | process.args: /runhandlercomserver
+2 | process.args: /set and bootstatuspolicy and ignoreallfailures or no and recoveryenabled
+2 | process.args: /shadow: *
+2 | process.args: /sys/class/dmi/id/bios_version
+2 | process.args: /updatedeploymentprovider
+2 | process.args: \\\\*\\*$*
+2 | process.args: \\\\127.0.0.1\\*
+2 | process.args: +o
+2 | process.args: +s
+2 | process.args: 2&gt;&amp;1
+2 | process.args: action=allow
+2 | process.args: add-trusted-cert
+2 | process.args: admin
+2 | process.args: binpath=*
+2 | process.args: c: \\users\\*
+2 | process.args: c: \\users\\*.dll
+2 | process.args: c: \\windows \\system32\\*.exe
+2 | process.args: catalog
+2 | process.args: com.apple.quarantine
+2 | process.args: connectionstrings
+2 | process.args: disable
+2 | process.args: disable and firewall and set or process.args: advfirewall and off and state
+2 | process.args: disable or stop or kill
+2 | process.args: exec \
+2 | process.args: export
+2 | process.args: find-certificate
+2 | process.args: find-generic-password
+2 | process.args: get
+2 | process.args: histfile
+2 | process.args: histfile=/dev/null
+2 | process.args: history
+2 | process.args: http*/print/pipe/*
+2 | process.args: kmod and list and sudo or sudo and depmod or lsmod or modinfo
+2 | process.args: localport=3389
+2 | process.args: manufacturer*
+2 | process.args: new-mailboxexportrequest*
+2 | process.args: off
+2 | process.args: parallels*
+2 | process.args: rm
+2 | process.args: runwizard
+2 | process.args: set-casmailbox*activesyncalloweddeviceids*
+2 | process.args: set-mppreference
+2 | process.args: setenv and not java*_home or runtime_java_home or dbus_launchd_session_bus_socket or ant_home or lg_webos_tv_sdk_home or webos_cli_tv or eden_env
+2 | process.args: smb: //*
+2 | process.args: smbfs
+2 | process.args: spctl and --master-disable
+2 | process.args: start
+2 | process.args: state
+2 | process.args: stop or process.name: chkconfig and process.args: off
+2 | process.args: stricthostkeychecking=no
+2 | process.args: syslog or rsyslog or syslog-ng
+2 | process.args: unset
+2 | process.args: user and /ad or /add
+2 | process.args: vagrant@*127.0.0.1*
+2 | process.args: write and -bool
+1 |
+1 | process.args:  /.*\/applications\/virtualbox.app\/.+/ or /\/usr\/local\/lib\/python.+/ or /\/var\/folders\/.+\/fp.*nstallhelper/ or /\/library\/filesystems\/.+/ or /\/usr\/lib\/virtualbox\/.+/ or /\/library\/application.*/ or /run/postgresql
+1 | process.args:  /library/application support/microsoft/mau*/microsoft autoupdate.app/contents/macos/msupdate
+1 | process.args:  hw.model
+1 | process.args:  support/jamf/managementframeworkscripts/logouthook.sh
+1 | process.args: --nc
+1 | process.args: -*i*
+1 | process.args: -accepteula
+1 | process.args: -connectpppoeservice
+1 | process.args: -encode
+1 | process.args: -file
+1 | process.args: -jar
+1 | process.args: -path
+1 | process.args: -s
+1 | process.args: -s0
+1 | process.args: -sf
+1 | process.args: -url
+1 | process.args: -wa
+1 | process.args: ?: \\*: *
+1 | process.args: ?: \\program files\\npcap\\checkstatus.bat??
+1 | process.args: ?: \\users\\*\\downloads\\*.htm*
+1 | process.args: ??: \\program files\\npcap\\checkstatus.bat?
+1 | process.args: *-all*
+1 | process.args: *-enabled*
+1 | process.args: *-exclusion*
+1 | process.args: *.jar
+1 | process.args: *.ko
+1 | process.args: *.vmoptions
+1 | process.args: *\\ and -i
+1 | process.args: *\\globalroot\\device\\harddiskvolumeshadowcopy*
+1 | process.args: *add-mppreference*
+1 | process.args: *clear-history*
+1 | process.args: *consolehost_history.txt*
+1 | process.args: *false*
+1 | process.args: *public*
+1 | process.args: *remove- item*
+1 | process.args: *savenothing*
+1 | process.args: *set- psreadlineoption*
+1 | process.args: *set-netfirewallprofile*
+1 | process.args: /autoclean or /autoclean and process.parent.name: svchost.exe and not process.executable: c: \windows\system32\cleanmgr.exe or c: \windows\syswow64\cleanmgr.exe
+1 | process.args: /dev/null
+1 | process.args: /etc/hosts
+1 | process.args: /etc/shadow
+1 | process.args: /groups/admin
+1 | process.args: /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+1 | process.args: /library/keychains/
+1 | process.args: /system/library/extensions/endpointsecurity.kext
+1 | process.args: /users/*/library/application support/iterm2/scripts/autolaunch/*.scpt
+1 | process.args: /usr/bin/snap
+1 | process.args: /usr/lib/go-*/bin/go
+1 | process.args: /usr/local/*
+1 | process.args: add
+1 | process.args: avast
+1 | process.args: bpf
+1 | process.args: c: \\*: *
+1 | process.args: c: \\*program*files*\\*
+1 | process.args: c: \\program files\\*
+1 | process.args: chrome*
+1 | process.args: cl
+1 | process.args: clear- eventlog
+1 | process.args: com.apple.safari and write and not  universalsearchenabled or suppresssearchsuggestions or webkittabtolinkspreferencekey or showfullurlinsmartsearchfield or com.apple.safari.contentpagegroupidentifier.webkit2tabstolinks
+1 | process.args: com.emeraldcube.prism.launcher.invoker
+1 | process.args: connectionstrings and -pdf
+1 | process.args: dump-keychain
+1 | process.args: enable=yes
+1 | process.args: failure
+1 | process.args: filter
+1 | process.args: group=network discovery
+1 | process.args: ishidden and create and true or 1 or yes
+1 | process.args: little snitch
+1 | process.args: little snitch*
+1 | process.args: ln
+1 | process.args: new- mailboxexportrequest*
+1 | process.args: password
+1 | process.args: passwords
+1 | process.args: rmmod and sudo or modprobe and sudo and --remove
+1 | process.args: rmmod and sudo or modprobe and sudo and --remove or -r
+1 | process.args: rssocks
+1 | process.args: set- casmailbox*activesyncalloweddeviceids*
+1 | process.args: setenv and not java*_home or runtime_java_home or dbus_launchd_session_bus_socket or ant_home
+1 | process.args: shadowhashdata or -dump
+1 | process.args: shadows
+1 | process.args: smb-os-discovery.nse
+1 | process.args: stop or pause or delete or /pid
+1 | process.args: truncate
+1 | process.args: xattr
