@@ -1,4 +1,4 @@
-COUNT    | LINE
+COUNT    | EVENT ACTION
 -----------------------------------------------------
       40 | event.action:process create 
       21 | event.action:network connection detected
