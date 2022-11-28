@@ -1,15 +1,21 @@
-﻿      14 | taskschd.dll
-      14 | scrobj.dll
+COUNT    | DLL
+-----------------------------------------------------
+      14 | taskschd.dll
       10 | wmiutils.dll
+       9 | scrobj.dll
+       9 | vaultcli.dll
        7 | pwsh.dll
-       6 | jscript.dll
        6 | vbscript.dll
-       5 | system.management.automation.dll
-       5 | system.management.automation.ni.dll
-       5 | wow64log.dll
+       6 | jscript.dll
+       5 | anagement.automation.dll
+       5 | c:\\*\\scrobj.dll
+       5 | comsvcs.dll
+       5 | gement.automation.ni.dll
        4 | cdpsgshims.dll
        4 | diagtrack_win.dll
        4 | edgegdi.dll
+       4 | indowscoredeviceinfo.dll
+       4 | mancerecordercontrol.dll
        4 | msfte.dll
        4 | mstscax.dll
        4 | phoneinfo.dll
@@ -17,21 +23,26 @@
        4 | tsvipsrv.dll
        4 | ualapi.dll
        4 | wbemcomn.dll
-       4 | windowscoredeviceinfo.dll
        4 | wlanhlp.dll
        4 | wlbsctrl.dll
        4 | wptsextensions.dll
+       3 | printconfig.dll
+       3 | printui.dll
        3 | samlib.dll
-       3 | vaultcli.dll
+       3 | time.interopservices.dll
+       3 | uxtheme.dll
+       2 | :\\windows\\tasks\\*.dll
        2 | c:\\programdata\\*.dll
        2 | c:\\users\\*.dll
-       2 | c:\\windows\\tasks\\*.dll
        2 | c:\\windows\\temp\\*.dll
-       2 | comsvcs.dll
        2 | ieproxy.dll
+       2 | istry.data.strings:*.dll
+       2 | m\\scripts\\checkmui.dll
+       2 | microsoft.teams.*.dll
+       1 | :\\*\\*.exe.local\\*.dll
        1 | accessibility.ni.dll
-       1 | c:\\*\\*.exe.local\\*.dll
-       1 | comctl32.dll
        1 | dismcore.dll
        1 | duser.dll
        1 | osksupport.dll
+       1 | seclogon.dll
+
