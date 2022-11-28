@@ -2,13 +2,13 @@ COUNT    | Process Argument
 -----------------------------------------------------
        5 | process.args:"delete"
        5 | process.args:"load"
-       5 | process.args:"tiledatamodelsvc")
-       4 | process.args:"--add")
+       5 | process.args:"tiledatamodelsvc"
+       4 | process.args:"--add"
        4 | process.args:"-d"
        4 | process.args:"create"
        4 | process.args:"nvdisplay.containerlocalsystem"
        4 | process.args:("/create", "-create")
-       4 | process.args:("\\\\tsclient\\*.exe"))
+       4 | process.args:("\\\\tsclient\\*.exe")
        4 | process.args:("c:\\windows\\temp\\nessus_*.txt", "c:\\windows\\temp\\nessus_*.tmp", "c:\\windows\\ccm\\systemtemp\\*", "c:\\windows\\ccmcache\\*", "c:\\ccm\\cache\\*") 
        4 | process.args:("hklm\\sam", "hklm\\security")
        4 | process.args:("import pty; pty.spawn(\"/bin/sh\")" or "import pty; pty.spawn(\"/bin/dash\")" or "import pty; pty.spawn(\"/bin/bash\")")
@@ -16,29 +16,29 @@ COUNT    | Process Argument
        4 | process.args:("save", "export")
        4 | process.args:"clear-eventlog"
        3 | process.args:"-af"
-       3 | process.args:"-attach")
-       3 | process.args:"-c")
+       3 | process.args:"-attach"
+       3 | process.args:"-c"
        3 | process.args:"-dumpfull"
        3 | process.args:"-e"
        3 | process.args:"-embedding" 
-       3 | process.args:"-ma")
+       3 | process.args:"-ma"
        3 | process.args:"*$*"
-       3 | process.args:"/fullmemdmp")
+       3 | process.args:"/fullmemdmp"
        3 | process.args:"/list"
-       3 | process.args:"/s")
+       3 | process.args:"/s"
        3 | process.args:"/set"
        3 | process.args:"/skip" 
-       3 | process.args:"/success:disable")
+       3 | process.args:"/success:disable"
        3 | process.args:"/text*password"
-       3 | process.args:"/v")
+       3 | process.args:"/v"
        3 | process.args:"\\\\.\\pipe\\*"
        3 | process.args:"&gt;"
        3 | process.args:"+h"
-       3 | process.args:"0x01100*")
+       3 | process.args:"0x01100*"
        3 | process.args:"adselfservice_enroll.hta"
        3 | process.args:"bootstatuspolicy"
-       3 | process.args:"c:\\*\\start menu\\programs\\startup\\*.bat*"))] 
-       3 | process.args:"com.apple.iokit.endpointsecurity" and event.action:"end"))
+       3 | process.args:"c:\\*\\start menu\\programs\\startup\\*.bat*"
+       3 | process.args:"com.apple.iokit.endpointsecurity" and event.action:"end"
        3 | process.args:"com.apple.quarantine"
        3 | process.args:"create*full*"
        3 | process.args:"deletejournal"
@@ -62,10 +62,10 @@ COUNT    | Process Argument
        3 | process.args:("?:\\windows\\diagnostics\\index\\pcwdiagnostic.xml", "pcwdiagnostic.xml", "?:\\users\\public\\*", "?:\\windows\\temp\\*")
        3 | process.args:("*.delete()*", "*remove-wmiobject*", "*rwmi*", "*remove-ciminstance*", "*rcim*")
        3 | process.args:("*win32_shadowcopy*")
-       3 | process.args:("/active directory/*", "/users*", "/groups*"))
+       3 | process.args:("/active directory/*", "/users*", "/groups*")
        3 | process.args:("activescripteventconsumer", "commandlineeventconsumer")
        3 | process.args:("copy*", "move*", "cp", "mv")
-       3 | process.args:("elasticendpoint", "elastic agent","elastic- agent","elastic-endpoint"))
+       3 | process.args:("elasticendpoint", "elastic agent","elastic- agent","elastic-endpoint")
        3 | process.args:("format*:*", "/format*:*", "*-format*:*")
        3 | process.args:("it_rebrowseforfile=*", "ms- msdt:/id", "ms-msdt:-id", "*frombase64*")
        3 | process.args:("objectcategory=computer", "(objectcategory=computer)", "objectcategory=person", "(objectcategory=person)", "objectcategory=subnet", "(objectcategory=subnet)", "objectcategory=group", "(objectcategory=group)", "objectcategory=organizationalunit", "(objectcategory=organizationalunit)", "objectcategory=attributeschema", "(objectcategory=attributeschema)", "domainlist", "dcmodes", "adinfo", "dclist", "computers_pwnotreqd", "trustdmp")
