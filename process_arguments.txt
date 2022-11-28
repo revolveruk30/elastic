@@ -1,282 +1,397 @@
-﻿7 | process.args: create
-7 | process.args: delete
-6 | process.args: \\\\*
-5 | process.args: -d
-5 | process.args: -embedding
-5 | process.args: /create
-5 | process.args: /v
-5 | process.args: c: \\perflogs\\*
-5 | process.args: stop
-5 | process.args: tiledatamodelsvc
-4 | process.args: --add
-4 | process.args: -a
-4 | process.args: -c
-4 | process.args: -e
-4 | process.args: ?decode
-4 | process.args: /active directory/*
-4 | process.args: /e: false
-4 | process.args: /ru
-4 | process.args: \\\\tsclient\\*.exe
-4 | process.args: c: \\windows\\temp\\nessus_*.txt
-4 | process.args: clear-eventlog
-4 | process.args: firewall
-4 | process.args: group
-4 | process.args: hklm\\sam
-4 | process.args: import pty; pty.spawn\
-4 | process.args: nvdisplay.containerlocalsystem
-4 | process.args: read
-4 | process.args: save
-4 | process.args: set
-4 | process.args: use
-4 | process.args: usn
-3 | process.args:  /users/*/library/keychains/*
-3 | process.args:  c: \\users\\*
-3 | process.args: -af
-3 | process.args: -attach
-3 | process.args: -downloadfile
-3 | process.args: -dumpfull
-3 | process.args: -ma
-3 | process.args: -n
-3 | process.args: -u
-3 | process.args: ?: \\windows\\diagnostics\\index\\pcwdiagnostic.xml
-3 | process.args: ?: \\windows\\system32\\calluxxprovider.vbs
-3 | process.args: *.delete*
-3 | process.args: *\\ntds.dit
-3 | process.args: *$*
-3 | process.args: *get-wmiobject*
-3 | process.args: *mklink*
-3 | process.args: *win32_shadowcopy*
-3 | process.args: /fullmemdmp
-3 | process.args: /list
-3 | process.args: /s
-3 | process.args: /set
-3 | process.args: /skip
-3 | process.args: /success: disable
-3 | process.args: /text*password
-3 | process.args: \\\\.\\pipe\\*
-3 | process.args: &gt;
-3 | process.args: +h
-3 | process.args: 0x01100*
-3 | process.args: activescripteventconsumer
-3 | process.args: adselfservice_enroll.hta
-3 | process.args: advfirewall
-3 | process.args: bootstatuspolicy
-3 | process.args: c: \\*\\start menu\\programs\\startup\\*.bat*
-3 | process.args: com.apple.iokit.endpointsecurity
-3 | process.args: config
-3 | process.args: copy
-3 | process.args: copy*
-3 | process.args: create*full*
-3 | process.args: deletejournal
-3 | process.args: disabled
-3 | process.args: drives
-3 | process.args: echo
-3 | process.args: elastic-agent
-3 | process.args: elasticendpoint
-3 | process.args: eventlog
-3 | process.args: eventlog-*
-3 | process.args: format*: *
-3 | process.args: fsinfo
-3 | process.args: ignoreallfailures
-3 | process.args: it_rebrowseforfile=*
-3 | process.args: minidump*
-3 | process.args: no
-3 | process.args: objectcategory=computer
-3 | process.args: recoveryenabled
-3 | process.args: set-service
-3 | process.args: shadowcopy
-3 | process.args: shadows*
-3 | process.args: stopservice
-3 | process.args: time
-3 | process.args: unload
-3 | process.args: user
-3 | process.args: uxtheme.dll,#64
-3 | process.args: view
-2 | process.args:  ??: \\program files\\npcap\\checkstatus.bat?
-2 | process.args:  /dclist: *
-2 | process.args:  /users/*/library/application support/google/chrome/default/login data
-2 | process.args:  c: \\windows\\system32\\osk.exe
-2 | process.args:  com.google.googledrive.findersyncapiextension
-2 | process.args:  productversion
-2 | process.args: -- remote-debugging-port=*
-2 | process.args: --remote- debugging-port=0
-2 | process.args: --user-data-dir=*
-2 | process.args: -action
-2 | process.args: -cv*
-2 | process.args: -disable*
-2 | process.args: -f
-2 | process.args: -hp*
-2 | process.args: -i
-2 | process.args: -l
-2 | process.args: -p*
-2 | process.args: -pdf
-2 | process.args: -r
-2 | process.args: -setremotelogin
-2 | process.args: -setwebproxy
-2 | process.args: ?: \\*.bat
-2 | process.args: ?: \\windows\\help\\oem\\scripts\\checkmui.dll
-2 | process.args: ?: \\windows\\inf\\powerplan.log
-2 | process.args: ?: \\windows\\system32\\davclnt.dll,davsetcookie
-2 | process.args: ?: \\windows\\system32\\powercfg.exe
-2 | process.args: ?: \\windows\\system32\\winethc.dll,forceproxydetectiononnextrun
-2 | process.args: .bash_history
-2 | process.args: {*}
-2 | process.args: *: 3389
-2 | process.args: */dev/tcp/*
-2 | process.args: */y*
-2 | process.args: *add- mppreference*-exclusion*
-2 | process.args: *chkconfig
-2 | process.args: /*/application support/com.apple.tcc/tcc.db
-2 | process.args: /ad
-2 | process.args: /add
-2 | process.args: /autoclean
-2 | process.args: /d
-2 | process.args: /d*
-2 | process.args: /dontlog*: *true
-2 | process.args: /dontlog\: \true\
-2 | process.args: /list*
-2 | process.args: /loadsavedwindows
-2 | process.args: /lockscreenurl: http*
-2 | process.args: /namespace: \\\\root\\securitycenter2
-2 | process.args: /private/var/db/systemkey
-2 | process.args: /runhandlercomserver
-2 | process.args: /set and bootstatuspolicy and ignoreallfailures or no and recoveryenabled
-2 | process.args: /shadow: *
-2 | process.args: /sys/class/dmi/id/bios_version
-2 | process.args: /updatedeploymentprovider
-2 | process.args: \\\\*\\*$*
-2 | process.args: \\\\127.0.0.1\\*
-2 | process.args: +o
-2 | process.args: +s
-2 | process.args: 2&gt;&amp;1
-2 | process.args: action=allow
-2 | process.args: add-trusted-cert
-2 | process.args: admin
-2 | process.args: binpath=*
-2 | process.args: c: \\users\\*
-2 | process.args: c: \\users\\*.dll
-2 | process.args: c: \\windows \\system32\\*.exe
-2 | process.args: catalog
-2 | process.args: com.apple.quarantine
-2 | process.args: connectionstrings
-2 | process.args: disable
-2 | process.args: disable and firewall and set or process.args: advfirewall and off and state
-2 | process.args: disable or stop or kill
-2 | process.args: exec \
-2 | process.args: export
-2 | process.args: find-certificate
-2 | process.args: find-generic-password
-2 | process.args: get
-2 | process.args: histfile
-2 | process.args: histfile=/dev/null
-2 | process.args: history
-2 | process.args: http*/print/pipe/*
-2 | process.args: kmod and list and sudo or sudo and depmod or lsmod or modinfo
-2 | process.args: localport=3389
-2 | process.args: manufacturer*
-2 | process.args: new-mailboxexportrequest*
-2 | process.args: off
-2 | process.args: parallels*
-2 | process.args: rm
-2 | process.args: runwizard
-2 | process.args: set-casmailbox*activesyncalloweddeviceids*
-2 | process.args: set-mppreference
-2 | process.args: setenv and not java*_home or runtime_java_home or dbus_launchd_session_bus_socket or ant_home or lg_webos_tv_sdk_home or webos_cli_tv or eden_env
-2 | process.args: smb: //*
-2 | process.args: smbfs
-2 | process.args: spctl and --master-disable
-2 | process.args: start
-2 | process.args: state
-2 | process.args: stop or process.name: chkconfig and process.args: off
-2 | process.args: stricthostkeychecking=no
-2 | process.args: syslog or rsyslog or syslog-ng
-2 | process.args: unset
-2 | process.args: user and /ad or /add
-2 | process.args: vagrant@*127.0.0.1*
-2 | process.args: write and -bool
-1 |
-1 | process.args:  /.*\/applications\/virtualbox.app\/.+/ or /\/usr\/local\/lib\/python.+/ or /\/var\/folders\/.+\/fp.*nstallhelper/ or /\/library\/filesystems\/.+/ or /\/usr\/lib\/virtualbox\/.+/ or /\/library\/application.*/ or /run/postgresql
-1 | process.args:  /library/application support/microsoft/mau*/microsoft autoupdate.app/contents/macos/msupdate
-1 | process.args:  hw.model
-1 | process.args:  support/jamf/managementframeworkscripts/logouthook.sh
-1 | process.args: --nc
-1 | process.args: -*i*
-1 | process.args: -accepteula
-1 | process.args: -connectpppoeservice
-1 | process.args: -encode
-1 | process.args: -file
-1 | process.args: -jar
-1 | process.args: -path
-1 | process.args: -s
-1 | process.args: -s0
-1 | process.args: -sf
-1 | process.args: -url
-1 | process.args: -wa
-1 | process.args: ?: \\*: *
-1 | process.args: ?: \\program files\\npcap\\checkstatus.bat??
-1 | process.args: ?: \\users\\*\\downloads\\*.htm*
-1 | process.args: ??: \\program files\\npcap\\checkstatus.bat?
-1 | process.args: *-all*
-1 | process.args: *-enabled*
-1 | process.args: *-exclusion*
-1 | process.args: *.jar
-1 | process.args: *.ko
-1 | process.args: *.vmoptions
-1 | process.args: *\\ and -i
-1 | process.args: *\\globalroot\\device\\harddiskvolumeshadowcopy*
-1 | process.args: *add-mppreference*
-1 | process.args: *clear-history*
-1 | process.args: *consolehost_history.txt*
-1 | process.args: *false*
-1 | process.args: *public*
-1 | process.args: *remove- item*
-1 | process.args: *savenothing*
-1 | process.args: *set- psreadlineoption*
-1 | process.args: *set-netfirewallprofile*
-1 | process.args: /autoclean or /autoclean and process.parent.name: svchost.exe and not process.executable: c: \windows\system32\cleanmgr.exe or c: \windows\syswow64\cleanmgr.exe
-1 | process.args: /dev/null
-1 | process.args: /etc/hosts
-1 | process.args: /etc/shadow
-1 | process.args: /groups/admin
-1 | process.args: /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
-1 | process.args: /library/keychains/
-1 | process.args: /system/library/extensions/endpointsecurity.kext
-1 | process.args: /users/*/library/application support/iterm2/scripts/autolaunch/*.scpt
-1 | process.args: /usr/bin/snap
-1 | process.args: /usr/lib/go-*/bin/go
-1 | process.args: /usr/local/*
-1 | process.args: add
-1 | process.args: avast
-1 | process.args: bpf
-1 | process.args: c: \\*: *
-1 | process.args: c: \\*program*files*\\*
-1 | process.args: c: \\program files\\*
-1 | process.args: chrome*
-1 | process.args: cl
-1 | process.args: clear- eventlog
-1 | process.args: com.apple.safari and write and not  universalsearchenabled or suppresssearchsuggestions or webkittabtolinkspreferencekey or showfullurlinsmartsearchfield or com.apple.safari.contentpagegroupidentifier.webkit2tabstolinks
-1 | process.args: com.emeraldcube.prism.launcher.invoker
-1 | process.args: connectionstrings and -pdf
-1 | process.args: dump-keychain
-1 | process.args: enable=yes
-1 | process.args: failure
-1 | process.args: filter
-1 | process.args: group=network discovery
-1 | process.args: ishidden and create and true or 1 or yes
-1 | process.args: little snitch
-1 | process.args: little snitch*
-1 | process.args: ln
-1 | process.args: new- mailboxexportrequest*
-1 | process.args: password
-1 | process.args: passwords
-1 | process.args: rmmod and sudo or modprobe and sudo and --remove
-1 | process.args: rmmod and sudo or modprobe and sudo and --remove or -r
-1 | process.args: rssocks
-1 | process.args: set- casmailbox*activesyncalloweddeviceids*
-1 | process.args: setenv and not java*_home or runtime_java_home or dbus_launchd_session_bus_socket or ant_home
-1 | process.args: shadowhashdata or -dump
-1 | process.args: shadows
-1 | process.args: smb-os-discovery.nse
-1 | process.args: stop or pause or delete or /pid
-1 | process.args: truncate
-1 | process.args: xattr
+COUNT    | Process Argument
+-----------------------------------------------------
+       5 | process.args:"delete"
+       5 | process.args:"load"
+       5 | process.args:"tiledatamodelsvc")
+       4 | process.args:"--add")
+       4 | process.args:"-d"
+       4 | process.args:"create"
+       4 | process.args:"nvdisplay.containerlocalsystem"
+       4 | process.args:("/create", "-create")
+       4 | process.args:("\\\\tsclient\\*.exe"))
+       4 | process.args:("c:\\windows\\temp\\nessus_*.txt", "c:\\windows\\temp\\nessus_*.tmp", "c:\\windows\\ccm\\systemtemp\\*", "c:\\windows\\ccmcache\\*", "c:\\ccm\\cache\\*") 
+       4 | process.args:("hklm\\sam", "hklm\\security")
+       4 | process.args:("import pty; pty.spawn(\"/bin/sh\")" or "import pty; pty.spawn(\"/bin/dash\")" or "import pty; pty.spawn(\"/bin/bash\")")
+       4 | process.args:("read", "-read", "list", "-list", "ls", "search", "-search")
+       4 | process.args:("save", "export")
+       4 | process.args:"clear-eventlog"
+       3 | process.args:"-af"
+       3 | process.args:"-attach")
+       3 | process.args:"-c")
+       3 | process.args:"-dumpfull"
+       3 | process.args:"-e"
+       3 | process.args:"-embedding" 
+       3 | process.args:"-ma")
+       3 | process.args:"*$*"
+       3 | process.args:"/fullmemdmp")
+       3 | process.args:"/list"
+       3 | process.args:"/s")
+       3 | process.args:"/set"
+       3 | process.args:"/skip" 
+       3 | process.args:"/success:disable")
+       3 | process.args:"/text*password"
+       3 | process.args:"/v")
+       3 | process.args:"\\\\.\\pipe\\*"
+       3 | process.args:"&gt;"
+       3 | process.args:"+h"
+       3 | process.args:"0x01100*")
+       3 | process.args:"adselfservice_enroll.hta"
+       3 | process.args:"bootstatuspolicy"
+       3 | process.args:"c:\\*\\start menu\\programs\\startup\\*.bat*"))] 
+       3 | process.args:"com.apple.iokit.endpointsecurity" and event.action:"end"))
+       3 | process.args:"com.apple.quarantine"
+       3 | process.args:"create*full*"
+       3 | process.args:"deletejournal"
+       3 | process.args:"disabled"
+       3 | process.args:"drives"
+       3 | process.args:"echo"
+       3 | process.args:"eventlog-*"
+       3 | process.args:"eventlog"
+       3 | process.args:"fsinfo"
+       3 | process.args:"ignoreallfailures"
+       3 | process.args:"minidump*"
+       3 | process.args:"no"
+       3 | process.args:"rundll32.exe"
+       3 | process.args:"set-service"
+       3 | process.args:"shadows*"
+       3 | process.args:"time"
+       3 | process.args:"unload"
+       3 | process.args:"usn"
+       3 | process.args:"view"
+       3 | process.args:("-n", "-s")
+       3 | process.args:("?:\\windows\\diagnostics\\index\\pcwdiagnostic.xml", "pcwdiagnostic.xml", "?:\\users\\public\\*", "?:\\windows\\temp\\*")
+       3 | process.args:("*.delete()*", "*remove-wmiobject*", "*rwmi*", "*remove-ciminstance*", "*rcim*")
+       3 | process.args:("*win32_shadowcopy*")
+       3 | process.args:("/active directory/*", "/users*", "/groups*"))
+       3 | process.args:("activescripteventconsumer", "commandlineeventconsumer")
+       3 | process.args:("copy*", "move*", "cp", "mv")
+       3 | process.args:("elasticendpoint", "elastic agent","elastic- agent","elastic-endpoint"))
+       3 | process.args:("format*:*", "/format*:*", "*-format*:*")
+       3 | process.args:("it_rebrowseforfile=*", "ms- msdt:/id", "ms-msdt:-id", "*frombase64*")
+       3 | process.args:("objectcategory=computer", "(objectcategory=computer)", "objectcategory=person", "(objectcategory=person)", "objectcategory=subnet", "(objectcategory=subnet)", "objectcategory=group", "(objectcategory=group)", "objectcategory=organizationalunit", "(objectcategory=organizationalunit)", "objectcategory=attributeschema", "(objectcategory=attributeschema)", "domainlist", "dcmodes", "adinfo", "dclist", "computers_pwnotreqd", "trustdmp")
+       3 | process.args:("stop", "delete"))
+       3 | process.args:("stopservice","uninstall", "stop", "disabled","stop-process","terminate","suspend")
+       2 | process.args regex~ """\.[a-z0-9_\-][a-z0-9_\-\.]{1,254}"""
+       2 | process.args,"-l", "-p", "-r", "-pw", "-ssh")
+       2 | process.args:!/bin/bash", ":!/bin/sh", ":!bash", ":!sh"
+       2 | process.args:"--remote- debugging-port=0"
+       2 | process.args:"--user-data-dir=*" 
+       2 | process.args:"-a"
+       2 | process.args:"-cv*"
+       2 | process.args:"-i" 
+       2 | process.args:"-pdf"
+       2 | process.args:"?:\\windows\\help\\oem\\scripts\\checkmui.dll") and not (process.name:"cmd.exe" and process.parent.executable:("?:\\windows\\system32\\oobe\\windeploy.exe", "?:\\program files (x86)\\ossec-agent\\wazuh-agent.exe", "?:\\windows\\system32\\igfxcuiservice.exe", "?:\\windows\\temp\\ie*.tmp\\ie*-support\\ienrcore.exe")
+       2 | process.args:"?:\\windows\\inf\\powerplan.log") and not (process.name:"regsvr32.exe"
+       2 | process.args:"?:\\windows\\system32\\calluxxprovider.vbs") and not (process.name:"cmd.exe"
+       2 | process.args:"?:\\windows\\system32\\powercfg.exe"
+       2 | process.args:"?:\\windows\\system32\\winethc.dll,forceproxydetectiononnextrun" and process.parent.args:"wdiservicehost") and not (process.executable:("?:\\program files\\*", "?:\\program files (x86)\\*", "?:\\windows\\system32\\kodak\\kds_i4x50\\lib\\lexexe.exe") and process.parent.args:"imgsvc")
+       2 | process.args:"{*}")
+       2 | process.args:"*:3389"
+       2 | process.args:"*chkconfig"
+       2 | process.args:"/*/application support/com.apple.tcc/tcc.db"
+       2 | process.args:"/add")
+       2 | process.args:"/autoclean"
+       2 | process.args:"/d"
+       2 | process.args:"/d*"
+       2 | process.args:"/dontlog*:*true"
+       2 | process.args:"/list*"
+       2 | process.args:"/lockscreenurl:http*"
+       2 | process.args:"/namespace:\\\\root\\securitycenter2"
+       2 | process.args:"/runhandlercomserver"
+       2 | process.args:"/shadow:*"
+       2 | process.args:"/updatedeploymentprovider" and /* common paths writeable by a standard user where the target dll can be placed */
+       2 | process.args:"/v"
+       2 | process.args:"\\\\*"
+       2 | process.args:"\\\\127.0.0.1\\*"
+       2 | process.args:"+o"))
+       2 | process.args:"advfirewall"
+       2 | process.args:"catalog"
+       2 | process.args:"connectionstrings"
+       2 | process.args:"disable"
+       2 | process.args:"dllhost.exe" and not cidrmatch(destination.ip, "10.0.0.0/8", "127.0.0.0/8", "169.254.0.0/16", "172.16.0.0/12", "192.0.0.0/24", "192.0.0.0/29", "192.0.0.8/32", "192.0.0.9/32", "192.0.0.10/32", "192.0.0.170/32", "192.0.0.171/32", "192.0.2.0/24", "192.31.196.0/24", "192.52.193.0/24", "192.168.0.0/16", "192.88.99.0/24", "224.0.0.0/4", "100.64.0.0/10", "192.175.48.0/24", "198.18.0.0/15", "198.51.100.0/24", "203.0.113.0/24", "240.0.0.0/4", "::1", "fe80::/10", "ff00::/8")
+       2 | process.args:"elastic-agent"
+       2 | process.args:"export"
+       2 | process.args:"firewall"
+       2 | process.args:"get"
+       2 | process.args:"histfile")
+       2 | process.args:"history"
+       2 | process.args:"manufacturer*"
+       2 | process.args:"new-mailboxexportrequest*"
+       2 | process.args:"off"
+       2 | process.args:"recoveryenabled"))
+       2 | process.args:"rundll32.exe" and not cidrmatch(destination.ip, "10.0.0.0/8", "127.0.0.0/8", "169.254.0.0/16", "172.16.0.0/12", "192.0.0.0/24", "192.0.0.0/29", "192.0.0.8/32", "192.0.0.9/32", "192.0.0.10/32", "192.0.0.170/32", "192.0.0.171/32", "192.0.2.0/24", "192.31.196.0/24", "192.52.193.0/24", "192.168.0.0/16", "192.88.99.0/24", "224.0.0.0/4", "100.64.0.0/10", "192.175.48.0/24","198.18.0.0/15", "198.51.100.0/24", "203.0.113.0/24", "240.0.0.0/4", "::1", "fe80::/10", "ff00::/8")
+       2 | process.args:"runwizard"
+       2 | process.args:"set-casmailbox*activesyncalloweddeviceids*"
+       2 | process.args:"set-mppreference"
+       2 | process.args:"set"
+       2 | process.args:"set"
+       2 | process.args:"shadowcopy"
+       2 | process.args:"smb://*"
+       2 | process.args:"smbfs"
+       2 | process.args:"stop"
+       2 | process.args:"stricthostkeychecking=no" and process.command_line:("scp *localhost:/*", "scp *127.0.0.1:/*") 
+       2 | process.args:"unset"
+       2 | process.args:"use"
+       2 | process.args:"use" and /* including hidden and webdav based online shares such as onedrive */
+       2 | process.args:"user"
+       2 | process.args:"vagrant@*127.0.0.1*"
+       2 | process.args:( "??:\\program files\\npcap\\checkstatus.bat?", "?:\\program files\\npcap\\checkstatus.bat", "\\system32\\cleanmgr.exe", "?:\\windows\\system32\\silcollector.cmd", "\\system32\\apphostregistrationverifier.exe", "\\system32\\servermanagerlauncher.exe"))
+       2 | process.args:( "/dclist:*", "/dcname:*", "/dsget*", "/lsaqueryfti:*", "/parentdomain", "/domain_trusts", "/bdc_query:*")
+       2 | process.args:( "/users/*/library/keychains/*", "/library/keychains/*", "/network/library/keychains/*", "system.keychain", "login.keychain-db", "login.keychain") 
+       2 | process.args:( "c:\\users\\*", "c:\\programdata\\*", "c:\\windows\\temp\\*", "c:\\windows\\tasks\\*", "c:\\perflogs\\*", "c:\\intel\\*", "c:\\windows\\debug\\*", "c:\\hp\\*")
+       2 | process.args:( "c:\\windows\\system32\\osk.exe", "c:\\windows\\system32\\magnify.exe", "c:\\windows\\system32\\narrator.exe", "c:\\windows\\system32\\sethc.exe", "utilman.exe", "atbroker.exe", "displayswitch.exe", "sethc.exe")
+       2 | process.args:( "productversion", "hw.model", "ioreg", "productname", "productuservisibleversion", "productbuildversion", "/library/application support/microsoft/merp*/microsoft error reporting.app/contents/macos/microsoft error reporting")
+       2 | process.args:(-change or -create or -run or -s or /s or /change or /create or /run)
+       2 | process.args:(-decode or -encode or /decode or /encode)
+       2 | process.args:("-- remote-debugging-port=*", "--remote-debugging- targets=*", "--remote-debugging-pipe=*")
+       2 | process.args:("-action" and ("-kerberoast" or askhash or asktgs or asktgt or s4u or ("-ticket" and ptt) or (dump and (tickets or keytab))))
+       2 | process.args:("-d", "-w"))
+       2 | process.args:("-disable*", "disabled", "neversend", "-exclusion*")
+       2 | process.args:("-hp*", "-p*", "-dw", "-tb", "-ta", "/hp*", "/p*", "/dw", "/tb", "/ta"))
+       2 | process.args:("-l", "-p", "-r", "-pw", "-ssh")
+       2 | process.args:("-p*", "-sdel")) /* uncomment if noisy for backup software related fps */ /* not process.parent.executable:("c:\\program files\\*.exe", "c:\\program files (x86)\\*.exe") */
+       2 | process.args:("-setremotelogin" and on)
+       2 | process.args:("?:\\windows\\system32\\davclnt.dll,davsetcookie", "?:\\windows\\syswow64\\davclnt.dll,davsetcookie") and /* access to named pipe via http */
+       2 | process.args:("?decode", "?encode", "?urlcache", "?verifyctl", "?encodehex", "?decodehex", "?exportpfx")
+       2 | process.args:("*/y*", "*/vss*", "*/d*")))
+       2 | process.args:("*\\ntds.dit", "*\\config\\sam", "\\*\\globalroot\\device\\harddiskvolumeshadowcopy*\\*", "*/system32/config/sam*")
+       2 | process.args:("*add- mppreference*-exclusion*", "*set-mppreference*-exclusion*")
+       2 | process.args:("*get-wmiobject*", "*gwmi*", "*get- ciminstance*", "*gcim*")
+       2 | process.args:("*mklink*", "*symboliclink*") and process.command_line:("*harddiskvolumeshadowcopy*")
+       2 | process.args:("/ad", "/add"))
+       2 | process.args:("/e:false", "cl", "clear-log")
+       2 | process.args:("/loadsavedwindows", "/restore", "restartbyrestartmanager*", "--restarted", "createdump", "dontsend", "/watson")
+       2 | process.args:("/ru", "/sc", "/tn", "/tr", "/f", "/xml") and /* exclude system sids - look for task creations by non-system user */ not user.id:("s-1-5-18", "s-1-5-19", "s-1-5-20")] by process.parent.entity_id
+       2 | process.args:("/sys/class/dmi/id/bios_version" or "/sys/class/dmi/id/product_name" or "/sys/class/dmi/id/chassis_vendor" or "/proc/scsi/scsi" or "/proc/ide/hd0/model") and not user.name:root
+       2 | process.args:("\\\\*\\*$*", "\\\\*@ssl\\*", "http*") and /* excluding shares deletion operation */ not
+       2 | process.args:("2&gt;&amp;1", "1&gt;")
+       2 | process.args:("action=allow", "enable=yes", "enable")
+       2 | process.args:("admin", "domain admins", "remote desktop users", "enterprise admins", "organization management") 
+       2 | process.args:("binpath=*", "binpath=*")
+       2 | process.args:("c:\\users\\*.dll", "c:\\programdata\\*.dll", "c:\\windows\\temp\\*.dll", "c:\\windows\\tasks\\*.dll")
+       2 | process.args:("c:\\users\\*", "c:\\programdata\\*", "c:\\windows\\temp\\*", "c:\\windows\\tasks\\*", "c:\\perflogs\\*", "c:\\intel\\*") 
+       2 | process.args:("c:\\windows \\system32\\*.exe", "c:\\windows \\syswow64\\*.exe")
+       2 | process.args:("config", "create", "start", "delete", "stop", "pause") and /* exclude system sid - look for service creations by non-system user */ not user.id:"s-1-5-18"
+       2 | process.args:("copy", "xcopy", "copy-item", "move", "cp", "mv"))
+       2 | process.args:("create", "config", "failure", "start")] [network where process.name:"sc.exe" and destination.ip != "127.0.0.1"
+       2 | process.args:("exec \"/bin/sh\";" or "exec \"/bin/dash\";" or "exec \"/bin/bash\";")
+       2 | process.args:("find-certificate", "add-trusted-cert", "set-keychain-settings", "delete-certificate", "/users/*/library/keychains/openvpn.keychain-db", "show-keychain-info", "lock-keychain", "set-key-partition-list", "import", "find-identity")
+       2 | process.args:("group", "user", "localgroup")
+       2 | process.args:("group", "useraccount"))
+       2 | process.args:("histfile=/dev/null", "histfilesize=0"))
+       2 | process.args:("http*/print/pipe/*", "http*/pipe/spoolss", "http*/pipe/srvsvc")
+       2 | process.args:("localport=3389", "remotedesktop", "group=\"remote desktop\"")
+       2 | process.args:("parallels*", "vmware*", "virtualbox*")
+       2 | process.args:("rm", "echo")
+       2 | process.args:("uxtheme.dll,#64", "printui.dll,printuientry", "?:\\windows\\system32\\firewallcontrolpanel.dll,shownotificationdialo g", "?:\\windows\\system32\\speech\\speechux\\sapi.cpl", "?:\\windows\\system32\\shell32.dll,openas_rundll")) and not (process.name:"cscript.exe"
+       2 | process.args:(("-downloadfile" or "-downloadfile") and "-url" and "-path")
+       2 | process.args:(/set and (bootstatuspolicy and ignoreallfailures or no and recoveryenabled))
+       2 | process.args:(advfirewall and off and state)
+       2 | process.args:(catalog and delete)
+       2 | process.args:(config or create or failure or start)
+       2 | process.args:(delete and shadowcopy)
+       2 | process.args:(delete and shadows)
+       2 | process.args:(deletejournal and usn)
+       2 | process.args:(disable and firewall and set)
+       2 | process.args:(disable or stop or kill)))
+       2 | process.args:(kmod and list and sudo or sudo and (depmod or lsmod or modinfo))
+       2 | process.args:(setenv and not (java*_home or runtime_java_home or dbus_launchd_session_bus_socket or ant_home or lg_webos_tv_sdk_home or webos_cli_tv or eden_env))
+       2 | process.args:(spctl and "--master-disable")
+       2 | process.args:(syslog or rsyslog or "syslog-ng")
+       2 | process.args:(u+s or /4[0-9]{3}/) and not user.name:root
+       2 | process.args:(user and (/ad or /add))
+       2 | process.args:(write and "-bool" and (com.apple.softwareupdate or /library/preferences/com.apple.softwareupdate.plist) and not (true or true))
+       2 | process.args:/dontlog\:\"true\"
+       2 | process.args:/lockscreenurl\:http*
+       2 | process.args:+h
+       2 | process.args:0
+       2 | process.args:3389")
+       2 | process.args:cl
+       2 | process.args:clear-eventlog
+       2 | process.args:off)
+       2 | process.args:stop)
+       1 | process.args in ("2&gt;&amp;1", "1&gt;")
+       1 | process.args in ("loginhook", "logouthook")
+       1 | process.args_count &gt; 12
+       1 | process.args_count:1
+       1 | process.args, "-r", "-t", "-a*","-m*")
+       1 | process.args, "\\\\127.0.0.1\\*")
+       1 | process.args:-cv*
+       1 | process.args:"--nc"
+       1 | process.args:"-a")
+       1 | process.args:"-a"] [process where event.type in ("start", "process_started") and process.name:"pluginkit"
+       1 | process.args:"-accepteula"
+       1 | process.args:"-c" and process.command_line:( "/bin/bash -c xattr -c *", "/bin/zsh -c xattr -c *", "/bin/sh -c xattr -c *"
+       1 | process.args:"-c"] by process.parent.pid
+       1 | process.args:"-c"] by process.ppid
+       1 | process.args:"-connectpppoeservice"
+       1 | process.args:"-downloadfile"
+       1 | process.args:"-embedding" ] by host.id, process.entity_id [network where event.type:"start" and process.name:"mshta.exe" and network.direction:"incoming" and network.transport:"tcp" and source.port &gt; 49151 and destination.port &gt; 49151 and not source.address in ("127.0.0.1", "::1") ] by host.id, process.entity_id
+       1 | process.args:"-embedding" ] by host.id, process.entity_id [network where event.type:"start" and process.name:"mshta.exe" and network.direction:("incoming", "ingress") and network.transport:"tcp" and source.port &gt; 49151 and destination.port &gt; 49151 and not source.address in ("127.0.0.1", "::1") ] by host.id, process.entity_id
+       1 | process.args:"-f"
+       1 | process.args:"-jar"
+       1 | process.args:"-path"
+       1 | process.args:"-s"
+       1 | process.args:"-s0"
+       1 | process.args:"-sf"
+       1 | process.args:"-url"
+       1 | process.args:"-wa"
+       1 | process.args:"?:\\*:*"
+       1 | process.args:"?:\\*.bat" and process.working_directory:"?:\\windows\\system32\\") and not (process.name:"cscript.exe"
+       1 | process.args:"?:\\program files\\npcap\\checkstatus.bat??")
+       1 | process.args:"?:\\windows\\system32\\calluxxprovider.vbs") and not (process.name:"powershell.exe"
+       1 | process.args:"*-all*"
+       1 | process.args:"*-enabled*"
+       1 | process.args:"*.jar" and /* add any fp's here */ not process.executable:("/users/*/.sdkman/*", "/library/java/javavirtualmachines/*") 
+       1 | process.args:"*.ko"
+       1 | process.args:"*.vmoptions"
+       1 | process.args:"*\\globalroot\\device\\harddiskvolumeshadowcopy*"
+       1 | process.args:"*clear-history*"
+       1 | process.args:"*false*"
+       1 | process.args:"*mklink*"
+       1 | process.args:"*savenothing*"
+       1 | process.args:"*set- psreadlineoption*"
+       1 | process.args:"*set-netfirewallprofile*"
+       1 | process.args:"/dev/null"
+       1 | process.args:"/etc/shadow"
+       1 | process.args:"/private/var/db/systemkey"
+       1 | process.args:"/users/*/library/application support/iterm2/scripts/autolaunch/*.scpt" ] by process.parent.pid
+       1 | process.args:"/usr/bin/snap"
+       1 | process.args:"\\\\*")) /* expand when ancestory is available and not descendant of [process where event.type:("start", "process_started") and process.name:"cmd.exe" and ((process.parent.name:"userinit.exe")
+       1 | process.args:"\\\\*")) /* expand when ancestry is available and not descendant of [process where event.type:"start" and process.name:"cmd.exe" and ((process.parent.name:"userinit.exe")
+       1 | process.args:"\\\\*")) /* expand when ancestry is available and not descendant of [process where event.type:("start", "process_started") and process.name:"cmd.exe" and ((process.parent.name:"userinit.exe")
+       1 | process.args:"add-trusted-cert"
+       1 | process.args:"add-trusted-cert" and not pr ocess.parent.executable:("/library/bitdefender/avp/product/bin/bdcorei ssues" or "/applications/bitdefender/securitynetworkinstallerapp.app/c ontents/macos/securitynetworkinstallerapp")
+       1 | process.args:"add"
+       1 | process.args:"avast"
+       1 | process.args:"bpf"
+       1 | process.args:"c:\\*:*"
+       1 | process.args:"cl")
+       1 | process.args:"clear- eventlog"
+       1 | process.args:"com.emeraldcube.prism.launcher.invoker") and not (process.executable:"c:\\docusnap 11\\tools\\nmap\\nmap.exe"
+       1 | process.args:"config"
+       1 | process.args:"dump-keychain"
+       1 | process.args:"enable=yes"
+       1 | process.args:"failure"
+       1 | process.args:"filter"
+       1 | process.args:"group=network discovery"
+       1 | process.args:"ln"
+       1 | process.args:"new- mailboxexportrequest*"
+       1 | process.args:"password"
+       1 | process.args:"passwords"
+       1 | process.args:"recoveryenabled"
+       1 | process.args:"rssocks"
+       1 | process.args:"rundll32.exe" and network.protocol != "dns" and network.direction:"outgoing" and not cidrmatch(destination.ip, "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16", "127.0.0.0/8")
+       1 | process.args:"rundll32.exe" and not cidrmatch(destination.ip, "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16", "127.0.0.0/8", "fe80::/10", "::1/128")
+       1 | process.args:"set- casmailbox*activesyncalloweddeviceids*"
+       1 | process.args:"shadows"
+       1 | process.args:"smb-os-discovery.nse"
+       1 | process.args:"start"
+       1 | process.args:"start")] [network where process.name:"sc.exe" and destination.ip != "127.0.0.1"
+       1 | process.args:"state"
+       1 | process.args:"truncate"
+       1 | process.args:"write"
+       1 | process.args:"xattr"
+       1 | process.args:( "/library/application support/microsoft/mau*/microsoft autoupdate.app/contents/macos/msupdate", "hw.model", "ioplatformexpertdevice", "/volumes/google chrome/google chrome.app/contents/frameworks/*/resources/install.sh", "-- defaults-torrc", "chrome.app", "framework.framework/vers ions/*/resources/keystone_promote_preflight.sh", "/users/*/library/application support/google/chrome/recovery/*/chromerecovery", "$display", "gio_launched_desktop_file_pid=$$")
+       1 | process.args:( "/users/*/library/application support/google/chrome/default/login data", "/users/*/library/application support/google/chrome/default/cookies", "/users/*/library/application support/google/chrome/profile*/cookies", "/users/*/library/cookies*", "/users/*/library/application support/firefox/profiles/*.default/cookies.sqlite", "/users/*/library/application support/firefox/profiles/*.default/key*.db", "/users/*/library/application support/firefox/profiles/*.default/logins.json", "login data", "cookies.binarycookies", "key4.db", "key3.db", "logins.json", "cookies.sqlite")
+       1 | process.args:( "/users/*/library/application support/google/chrome/default/login data", "/users/*/library/application support/google/chrome/default/cookies", "/users/*/library/cookies*", "/users/*/library/application support/firefox/profiles/*.default/cookies.sqlite", "/users/*/library/application support/firefox/profiles/*.default/key*.db", "/users/*/library/application support/firefox/profiles/*.default/logins.json", "login data", "cookies.binarycookies", "key4.db", "key3.db", "logins.json", "cookies.sqlite")
+       1 | process.args:( "/users/*/library/keychains/*", "/library/keychains/*", "/network/library/keychains/*", "system.keychain", "login.keychain-db", "login.keychain")
+       1 | process.args:( "c:\\users\\*", "c:\\programdata\\*", "c:\\windows\\temp\\*", "c:\\windows\\tasks\\*", "c:\\perflogs\\*", "c:\\intel\\*", "c:\\windows\\debug\\*", "c:\\hp\\*") and not (process.name:"cmd.exe"
+       1 | process.args:( "com.google.googledrive.findersyncapiextension", "com.google.drivefs.findersync", "com.boxcryptor.osx.rednif", "com.adobe.accmac.accfindersync", "com.microsoft.onedrive.findersync", "com.insynchq.insync.insync- finder-integration", "com.box.desktop.findersyncext")
+       1 | process.args:( "com.google.googledrive.findersyncapiextension", "com.google.drivefs.findersync", "com.boxcryptor.osx.rednif", "com.adobe.accmac.accfindersync", "com.microsoft.onedrive.findersync", "com.insynchq.insync.insync-finder-integration", "com.box.desktop.findersyncext") 
+       1 | process.args:( "hw.model", "ioplatformexpertdevice", "/volumes/google chrome/google chrome.app/contents/frameworks/*/resources/install.sh", "-- defaults-torrc", "*chrome.app", "framework.framework/versi ons/*/resources/keystone_promote_preflight.sh", "/users/*/library/application support/google/chrome/recovery/*/chromerecovery", "$display", "*gio_launched_desktop_file_pid=$$*", "/opt/homebrew/*", "/usr/local/*brew*")
+       1 | process.args:( "support/jamf/managementframeworkscripts/logouthook.sh", "support/jamf/managementframeworkscripts/loginhook.sh", "/library/application support/jamf/managementframeworkscripts/logouthook.sh", "/library/application support/jamf/managementframeworkscripts/loginhook.sh")
+       1 | process.args:( /.*\/applications\/virtualbox.app\/.+/ or /\/usr\/local\/lib\/python.+/ or /\/var\/folders\/.+\/fp.*nstallhelper/ or /\/library\/filesystems\/.+/ or /\/usr\/lib\/virtualbox\/.+/ or /\/library\/application.*/ or "/run/postgresql" or "/var/crash" or "/var/run/postgresql" or /\/usr\/bin\/.+/ or /\/usr\/local\/share\/.+/ or /\/applications\/.+/ or /\/usr\/libexec\/.+/ or "/var/metrics" or /\/var\/lib\/dpkg\/.+/ or /\/run\/log\/journal\/.*/ or \/users\/*\/.minikube\/bin\/docker-machine-driver-hyperkit)
+       1 | process.args:( /root/.ssh/id_rsa or /root/.ssh/id_rsa.pub or /root/.ssh/id_ed25519 or /root/.ssh/id_ed25519.pub or /root/.ssh/authorized_keys or /root/.ssh/authorized_keys2 or /root/.ssh/known_hosts or /root/.bash_history or /etc/hosts or /home/*/.ssh/id_rsa or /home/*/.ssh/id_rsa.pub or /home/*/.ssh/id_ed25519 or /home/*/.ssh/id_ed25519.pub or /home/*/.ssh/authorized_keys or /home/*/.ssh/authorized_keys2 or /home/*/.ssh/known_hosts or /home/*/.bash_history or /root/.aws/credentials or /root/.aws/config or /home/*/.aws/credentials or /home/*/.aws/config or /root/.docker/config.json or /home/*/.docker/config.json or /etc/group or /etc/passwd or /etc/shadow or /etc/gshadow)
+       1 | process.args:(-querytype=* or -qt=* or -q=* or -type=*)
+       1 | process.args:("-*i*", "+*i*")
+       1 | process.args:("-e" and const*require*child_process*)
+       1 | process.args:("-encode" or "/encode" or "-decode" or "/decode")
+       1 | process.args:("-f" and "-setremotelogin" and on)
+       1 | process.args:("-file", "-psconsolefile") and user.id:"s-1-5-18") and not (process.name:"msiexec.exe" and user.id:"s-1-5-18")
+       1 | process.args:("-r", "-t", "-a*","-m*")
+       1 | process.args:("-r", "-t", "-a*","-m*") 
+       1 | process.args:("-setwebproxy" or "-setsecurewebproxy" or "-setautoproxyurl")
+       1 | process.args:("-u" or "--remove" or "-z" or " --zero")
+       1 | process.args:("-u" or "--remove" or "-z" or "--zero")
+       1 | process.args:("?:\\*.bat", "?:\\*.cmd"))
+       1 | process.args:("?:\\users\\*\\downloads\\*.htm*", "?:\\users\\*\\content.outlook\\*.htm*", "?:\\users\\*\\appdata\\local\\temp\\temp?_*.htm*", "?:\\users\\*\\appdata\\local\\temp\\7z*.htm*", "?:\\users\\*\\appdata\\local\\temp\\rar$*.htm*")
+       1 | process.args:("??:\\program files\\npcap\\checkstatus.bat?", "?:\\program files\\npcap\\checkstatus.bat", "\\system32\\cleanmgr.exe", "?:\\windows\\system32\\silcollector.cmd", "\\system32\\apphostregistrationverifier.exe", "\\system32\\servermanagerlauncher.exe", "dir", "?:\\program files\\*", "?:\\program files (x86)\\*", "?:\\windows\\lsdeployment\\lspush.exe", "(x86)\\fmauditonsite\\watchdog.bat", "?:\\programdata\\chocolatey\\bin\\choco-upgrade-all.bat", "files\\npcap\\checkstatus.bat") and /* very noisy pattern - bat
+       1 | process.args:("?decode", "?encode", "?urlcache", "?verifyctl", "?encodehex", "?decodehex")
+       1 | process.args:("?decode", "?encode")
+       1 | process.args:(".bash_history", "/root/.bash_history", "/home/*/.bash_history","/users/.bash_history", "/users/*/.bash_history", ".zsh_history", "/root/.zsh_history", "/home/*/.zsh_history", "/users/.zsh_history", "/users/*/.zsh_history"))
+       1 | process.args:(".bash_history", "/root/.bash_history", "/home/*/.bash_history"))
+       1 | process.args:("*-exclusion*")
+       1 | process.args:("*/dev/tcp/*", "*/dev/udp/*", "*zsh/net/tcp*", "*zsh/net/udp*") and /* noisy fps */ not (process.parent.name:"timeout" and process.executable:"/var/lib/docker/overlay*")
+       1 | process.args:("*/dev/tcp/*", "*/dev/udp/*", "zsh/net/tcp", "zsh/net/udp")
+       1 | process.args:("*\\ntds.dit", "*\\config\\sam", "\\*\\globalroot\\device\\harddiskvolumeshadowcopy*\\*")
+       1 | process.args:("*add-mppreference*", "*set-mppreference*")
+       1 | process.args:("*consolehost_history.txt*", "*(get- psreadlineoption).historysavepath*"))
+       1 | process.args:("*get-wmiobject*", "*gwmi*", "*get-ciminstance*", "*gcim*")
+       1 | process.args:("*public*", "*domain*", "*private*")
+       1 | process.args:("*remove- item*", "rm")
+       1 | process.args:("/active directory/*", "/users*", "/groups*")
+       1 | process.args:("/create" or "-create" or "/s" or "-s" or "/run" or "-run" or "/change" or "-change")
+       1 | process.args:("/e:false")
+       1 | process.args:("/e:false", "cl", "clear-log"))
+       1 | process.args:("/etc/hosts")
+       1 | process.args:("/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2", "/etc/ld.so.preload")] [file where event.action:"creation" and file.extension:"so"
+       1 | process.args:("/library/keychains/" or "/network/library/keychains/" or "~/library/keychains/")
+       1 | process.args:("/private/var/db/systemkey" or "/var/db/systemkey")
+       1 | process.args:("/ru", "/sc", "/tn", "/tr", "/f", "/xml") and /* exclude system integrity level - look for task creations by non-system user */ not (?process.ext.token.integrity_level_name:"system"
+       1 | process.args:("/ru", "/sc", "/tn", "/tr", "/f", "/xml") and /* exclude system integrity level - look for task creations by non-system user */ not (process.ext.token.integrity_level_name:"system")
+       1 | process.args:("/system/library/extensions/endpointsecurity.kext" or "endpointsecurity.kext")
+       1 | process.args:("/usr/lib/go-*/bin/go", "/usr/lib/dracut/dracut- functions.sh", "/tmp/ksinstallaction.*/m/.patch/*")
+       1 | process.args:("/usr/local/*", "/users/*/github.com/*", "/users/*/src/*")
+       1 | process.args:("\\\\*", "diskfree", "rmdir", "mkdir", "dir", "del", "rename", "bcp", "*xmlnamespaces*", "?:\\mssql\\backup\\jobs\\sql_agent_backup_job.ps1", "k:\\mssql\\backup\\msdb", "k:\\mssql\\backup\\logins")
+       1 | process.args:("+s" or "u+s" or /4[0-9]{3}/ or g+s or /2[0-9]{3}/)
+       1 | process.args:("+s" or "u+s" or /4[0-9]{3}/ or g+s or /2[0-9]{3}/) 
+       1 | process.args:("advfirewall" and "state" and "off")
+       1 | process.args:("c:\\*program*files*\\*", "c:\\*program*files*\\*") 
+       1 | process.args:("c:\\perflogs\\*", "c:\\users\\public\\*", "c:\\users\\default\\*", "c:\\windows\\tasks\\*", "c:\\intel\\*", "c:\\amd\\temp\\*", "c:\\windows\\appreadiness\\*", "c:\\windows\\servicestate\\*", "c:\\windows\\security\\*", "c:\\windows\\identitycrl\\*", "c:\\windows\\branding\\*", "c:\\windows\\csc\\*", "c:\\windows\\digitallocker\\*", "c:\\windows\\en- us\\*", "c:\\windows\\wlansvc\\*", "c:\\windows\\prefetch\\*", "c:\\windows\\fonts\\*", "c:\\windows\\diagnostics\\*", "c:\\windows\\tapi\\*", "c:\\windows\\inf\\*", "c:\\windows\\system32\\speech\\*", "c:\\windows\\tracing\\*", "c:\\windows\\ime\\*", "c:\\windows\\performance\\*", "c:\\windows\\intel\\*", "c:\\windows\\ms\\*", "c:\\windows\\dot3svc\\*", "c:\\windows\\serviceprofiles\\*", "c:\\windows\\panther\\*", "c:\\windows\\remotepackages\\*", "c:\\windows\\ocr\\*", "c:\\windows\\appcompat\\*", "c:\\windows\\apppatch\\*", "c:\\windows\\addins\\*", "c:\\windows\\setup\\*", "c:\\windows\\help\\*", "c:\\windows\\skb\\*", "c:\\windows\\vss\\*", "c:\\windows\\web\\*", "c:\\windows\\servicing\\*", "c:\\windows\\cbstemp\\*", "c:\\windows\\logs\\*", "c:\\windows\\waas\\*", "c:\\windows\\twain_32\\*", "c:\\windows\\shellexperiences\\*", "c:\\windows\\shellcomponents\\*", "c:\\windows\\pla\\*", "c:\\windows\\migration\\*", "c:\\windows\\debug\\*", "c:\\windows\\cursors\\*", "c:\\windows\\containers\\*", "c:\\windows\\boot\\*", "c:\\windows\\bcastdvr\\*", "c:\\windows\\assembly\\*", "c:\\windows\\textinput\\*", "c:\\windows\\security\\*", "c:\\windows\\schemas\\*", "c:\\windows\\schcache\\*", "c:\\windows\\resources\\*", "c:\\windows\\rescache\\*", "c:\\windows\\provisioning\\*", "c:\\windows\\printdialog\\*", "c:\\windows\\policydefinitions\\*", "c:\\windows\\media\\*", "c:\\windows\\globalization\\*", "c:\\windows\\l2schemas\\*", "c:\\windows\\livekernelreports\\*", "c:\\windows\\modemlogs\\*", "c:\\windows\\immersivecontrolpanel\\*", "c:\\$recycle.bin\\*")
+       1 | process.args:("c:\\perflogs\\*", "c:\\users\\public\\*", "c:\\windows\\tasks\\*", "c:\\intel\\*", "c:\\amd\\temp\\*", "c:\\windows\\appreadiness\\*", "c:\\windows\\servicestate\\*", "c:\\windows\\security\\*", "c:\\windows\\identitycrl\\*", "c:\\windows\\branding\\*", "c:\\windows\\csc\\*", "c:\\windows\\digitallocker\\*", "c:\\windows\\en- us\\*", "c:\\windows\\wlansvc\\*", "c:\\windows\\prefetch\\*", "c:\\windows\\fonts\\*", "c:\\windows\\diagnostics\\*", "c:\\windows\\tapi\\*", "c:\\windows\\inf\\*", "c:\\windows\\system32\\speech\\*", "c:\\windows\\tracing\\*", "c:\\windows\\ime\\*", "c:\\windows\\performance\\*", "c:\\windows\\intel\\*", "c:\\windows\\ms\\*", "c:\\windows\\dot3svc\\*", "c:\\windows\\panther\\*", "c:\\windows\\remotepackages\\*", "c:\\windows\\ocr\\*", "c:\\windows\\appcompat\\*", "c:\\windows\\apppatch\\*", "c:\\windows\\addins\\*", "c:\\windows\\setup\\*", "c:\\windows\\help\\*", "c:\\windows\\skb\\*", "c:\\windows\\vss\\*", "c:\\windows\\servicing\\*", "c:\\windows\\cbstemp\\*", "c:\\windows\\logs\\*", "c:\\windows\\waas\\*", "c:\\windows\\twain_32\\*", "c:\\windows\\shellexperiences\\*", "c:\\windows\\shellcomponents\\*", "c:\\windows\\pla\\*", "c:\\windows\\migration\\*", "c:\\windows\\debug\\*", "c:\\windows\\cursors\\*", "c:\\windows\\containers\\*", "c:\\windows\\boot\\*", "c:\\windows\\bcastdvr\\*", "c:\\windows\\textinput\\*", "c:\\windows\\security\\*", "c:\\windows\\schemas\\*", "c:\\windows\\schcache\\*", "c:\\windows\\resources\\*", "c:\\windows\\rescache\\*", "c:\\windows\\provisioning\\*", "c:\\windows\\printdialog\\*", "c:\\windows\\policydefinitions\\*", "c:\\windows\\media\\*", "c:\\windows\\globalization\\*", "c:\\windows\\l2schemas\\*", "c:\\windows\\livekernelreports\\*", "c:\\windows\\modemlogs\\*", "c:\\windows\\immersivecontrolpanel\\*", "c:\\$recycle.bin\\*")
+       1 | process.args:("c:\\perflogs\\*", "c:\\users\\public\\*", "c:\\windows\\tasks\\*", "c:\\intel\\*", "c:\\amd\\temp\\*", "c:\\windows\\appreadiness\\*", "c:\\windows\\servicestate\\*", "c:\\windows\\security\\*", "c:\\windows\\identitycrl\\*", "c:\\windows\\branding\\*", "c:\\windows\\csc\\*", "c:\\windows\\digitallocker\\*", "c:\\windows\\en- us\\*", "c:\\windows\\wlansvc\\*", "c:\\windows\\prefetch\\*", "c:\\windows\\fonts\\*", "c:\\windows\\diagnostics\\*", "c:\\windows\\tapi\\*", "c:\\windows\\inf\\*", "c:\\windows\\system32\\speech\\*", "c:\\windows\\tracing\\*", "c:\\windows\\ime\\*", "c:\\windows\\performance\\*", "c:\\windows\\intel\\*", "c:\\windows\\ms\\*", "c:\\windows\\dot3svc\\*", "c:\\windows\\panther\\*", "c:\\windows\\remotepackages\\*", "c:\\windows\\ocr\\*", "c:\\windows\\appcompat\\*", "c:\\windows\\apppatch\\*", "c:\\windows\\addins\\*", "c:\\windows\\setup\\*", "c:\\windows\\help\\*", "c:\\windows\\skb\\*", "c:\\windows\\vss\\*", "c:\\windows\\servicing\\*", "c:\\windows\\cbstemp\\*", "c:\\windows\\logs\\*", "c:\\windows\\waas\\*", "c:\\windows\\twain_32\\*", "c:\\windows\\shellexperiences\\*", "c:\\windows\\shellcomponents\\*", "c:\\windows\\pla\\*", "c:\\windows\\migration\\*", "c:\\windows\\debug\\*", "c:\\windows\\cursors\\*", "c:\\windows\\containers\\*", "c:\\windows\\boot\\*", "c:\\windows\\bcastdvr\\*", "c:\\windows\\textinput\\*", "c:\\windows\\security\\*", "c:\\windows\\schemas\\*", "c:\\windows\\schcache\\*", "c:\\windows\\resources\\*", "c:\\windows\\rescache\\*", "c:\\windows\\provisioning\\*", "c:\\windows\\printdialog\\*", "c:\\windows\\policydefinitions\\*", "c:\\windows\\media\\*", "c:\\windows\\globalization\\*", "c:\\windows\\l2schemas\\*", "c:\\windows\\livekernelreports\\*", "c:\\windows\\modemlogs\\*", "c:\\windows\\immersivecontrolpanel\\*", "c:\\$recycle.bin\\*") and /* noisy fp patterns */ not process.parent.executable:("c:\\windows\\system32\\driverstore\\file repository\\*\\igfxcuiservice*.exe", "c:\\windows\\system32\\spacedeskservice.exe", "c:\\program files\\dell\\supportassistagent\\sre\\sre.exe") and not (process.name:"rundll32.exe"
+       1 | process.args:("c:\\perflogs\\*","c:\\users\\ public\\*","c:\\users\\default\\*","c:\\windows\\tasks\\*","c:\\intel\ \*", "c:\\amd\\temp\\*", "c:\\windows\\appreadiness\\*", "c:\\window s\\servicestate\\*","c:\\windows\\security\\*","c:\\windows\\identityc rl\\*","c:\\windows\\branding\\*","c:\\windows\\csc\\*", "c:\\windows\\digitallocker\\*","c:\\windows\\en-us\\*","c:\\windows\\ wlansvc\\*","c:\\windows\\prefetch\\*","c:\\windows\\fonts\\*", "c:\\ windows\\diagnostics\\*","c:\\windows\\tapi\\*","c:\\windows\\inf\\*", "c:\\windows\\system32\\speech\\*","c:\\windows\\tracing\\*", "c:\\wi ndows\\ime\\*","c:\\windows\\performance\\*","c:\\windows\\intel\\*"," c:\\windows\\ms\\*","c:\\windows\\dot3svc\\*","c:\\windows\\servicepro files\\*", "c:\\windows\\panther\\*","c:\\windows\\remotepackages\\*" ,"c:\\windows\\ocr\\*","c:\\windows\\appcompat\\*","c:\\windows\\apppa tch\\*","c:\\windows\\addins\\*", "c:\\windows\\setup\\*","c:\\window s\\help\\*","c:\\windows\\skb\\*","c:\\windows\\vss\\*","c:\\windows\\ web\\*","c:\\windows\\servicing\\*","c:\\windows\\cbstemp\\*", "c:\\w indows\\logs\\*","c:\\windows\\waas\\*","c:\\windows\\twain_32\\*","c:\\windows\\shellexperiences\\*","c:\\windows\\shellcomponents\\*","c:\ \windows\\pla\\*", "c:\\windows\\migration\\*","c:\\windows\\debug\\* ","c:\\windows\\cursors\\*","c:\\windows\\containers\\*","c:\\windows\ \boot\\*","c:\\windows\\bcastdvr\\*", "c:\\windows\\assembly\\*","c:\ \windows\\textinput\\*","c:\\windows\\security\\*","c:\\windows\\schem as\\*","c:\\windows\\schcache\\*","c:\\windows\\resources\\*", "c:\\w indows\\rescache\\*","c:\\windows\\provisioning\\*","c:\\windows\\prin tdialog\\*","c:\\windows\\policydefinitions\\*","c:\\windows\\media\\* ", "c:\\windows\\globalization\\*","c:\\windows\\l2schemas\\*","c:\\w indows\\livekernelreports\\*","c:\\windows\\modemlogs\\*","c:\\windows \\immersivecontrolpanel\\*", "c:\\$recycle.bin\\*")
+       1 | process.args:("c:\\perflogs\\*","c:\\users\\public\\*","c:\\users\\default\\*","c:\\win dows\\tasks\\*","c:\\intel\\*", "c:\\amd\\temp\\*", "c:\\windows\\appreadiness\\*", "c:\\windows\\servicestate\\*","c:\\wi ndows\\security\\*","c:\\windows\\identitycrl\\*","c:\\windows\\brandi ng\\*","c:\\windows\\csc\\*", "c:\\windows\\digitallocker\\*","c:\\windows\\en-us\\*","c:\\windows\\ wlansvc\\*","c:\\windows\\prefetch\\*","c:\\windows\\fonts\\*", "c:\\ windows\\diagnostics\\*","c:\\windows\\tapi\\*","c:\\windows\\inf\\*", "c:\\windows\\system32\\speech\\*","c:\\windows\\tracing\\*", "c:\\wi ndows\\ime\\*","c:\\windows\\performance\\*","c:\\windows\\intel\\*"," c:\\windows\\ms\\*","c:\\windows\\dot3svc\\*","c:\\windows\\servicepro files\\*", "c:\\windows\\panther\\*","c:\\windows\\remotepackages\\*" ,"c:\\windows\\ocr\\*","c:\\windows\\appcompat\\*","c:\\windows\\apppa tch\\*","c:\\windows\\addins\\*", "c:\\windows\\setup\\*","c:\\window s\\help\\*","c:\\windows\\skb\\*","c:\\windows\\vss\\*","c:\\windows\\ web\\*","c:\\windows\\servicing\\*","c:\\windows\\cbstemp\\*", "c:\\w indows\\logs\\*","c:\\windows\\waas\\*","c:\\windows\\twain_32\\*","c:\\windows\\shellexperiences\\*","c:\\windows\\shellcomponents\\*","c:\ \windows\\pla\\*", "c:\\windows\\migration\\*","c:\\windows\\debug\\* ","c:\\windows\\cursors\\*","c:\\windows\\containers\\*","c:\\windows\ \boot\\*","c:\\windows\\bcastdvr\\*", "c:\\windows\\assembly\\*","c:\ \windows\\textinput\\*","c:\\windows\\security\\*","c:\\windows\\schem as\\*","c:\\windows\\schcache\\*","c:\\windows\\resources\\*", "c:\\w indows\\rescache\\*","c:\\windows\\provisioning\\*","c:\\windows\\prin tdialog\\*","c:\\windows\\policydefinitions\\*","c:\\windows\\media\\* ", "c:\\windows\\globalization\\*","c:\\windows\\l2schemas\\*","c:\\w indows\\livekernelreports\\*","c:\\windows\\modemlogs\\*","c:\\windows \\immersivecontrolpanel\\*")
+       1 | process.args:("c:\\program files\\*", "c:\\program files (x86)\\*")
+       1 | process.args:("chrome*", "chromium", "opera", "safari*", "brave", "microsoft edge", "edge", "firefox*")
+       1 | process.args:("copy", "xcopy", "copy-item", "move", "cp", "mv")
+       1 | process.args:("create" or "config" or "failure" or "start")
+       1 | process.args:("delete" and "catalog")
+       1 | process.args:("delete" and "shadows")
+       1 | process.args:("elastic-agent", "stop")
+       1 | process.args:("find-generic-password" or "find-internet-password")
+       1 | process.args:("find-generic-password", "find-internet-password")
+       1 | process.args:("firewall" and "set" and "disable")
+       1 | process.args:("firewall", "advfirewall")
+       1 | process.args:("little snitch" or avast* or avira* or eset* or esets_* or blockblock or 360* or lulu or knockknock* or kav or kis or rtprotectiondaemon or malware* or vshieldscanner or webprotection or webinspectord or mcafee* or isecespd* or macmnsvc* or masvc or kesl or avscan or guard or rtvscand or symcfgd or scmdaemon or symantec or elastic-endpoint)
+       1 | process.args:("little snitch*", "avast*", "avira*", "eset*", "blockblock*", "360sec*", "lulu*", "knockknock*", "kav", "kis", "rtprotectiondaemon*", "malware*", "vshieldscanner*", "webprotection*", "webinspectord*", "mcafee*", "isecespd*", "macmnsvc*", "masvc*", "kesl*", "avscan*", "guard*", "rtvscand*", "symcfgd*", "scmdaemon*", "symantec*", "sophos*", "osquery*", "elastic-endpoint*") 
+       1 | process.args:("shadowcopy" and "delete")
+       1 | process.args:("user" and ("/add" or "/ad"))
+       1 | process.args:("usn" and "deletejournal")
+       1 | process.args:("uxtheme.dll,#64", "printui.dll,printuientry")
+       1 | process.args:("wermgr.exe", "werfault.exe") and network.protocol != "dns" and network.direction:"outgoing" and destination.ip !="::1" and destination.ip !="127.0.0.1" 
+       1 | process.args:("wermgr.exe", "werfault.exe") and network.protocol != "dns" and network.direction:("outgoing", "egress") and destination.ip !="::1" and destination.ip !="127.0.0.1" 
+       1 | process.args:("winword.exe", "excel.exe", "outlook.exe", "powerpnt.exe"))
+       1 | process.args:(("-setwebproxy" or "-setsecurewebproxy" or "-setautoproxyurl") and not (bluetooth or off))
+       1 | process.args:(("/groups/admin" or admin) and ("-a" or "-append"))
+       1 | process.args:((("-u" or "-pss") and "-p" and "-s") or ("/h" and "/shared") or ("-k" and "-lcq"))
+       1 | process.args:((rmmod and sudo) or (modprobe and sudo and ("--remove" or "-r")))
+       1 | process.args:(*\\ and ("-i" or "-s"))
+       1 | process.args:(/[ll][ii][ss][tt]/ and /\/[tt][ee][xx][tt]\:[pp][aa][ss][ss][ww][oo][rr][dd]/)
+       1 | process.args:(/autoclean)
+       1 | process.args:(/system/volumes/data and noowners)
+       1 | process.args:(com.apple.safari and write and not ( universalsearchenabled or suppresssearchsuggestions or webkittabtolinkspreferencekey or showfullurlinsmartsearchfield or com.apple.safari.contentpagegroupidentifier.webkit2tabstolinks))
+       1 | process.args:(connectionstrings and "-pdf")
+       1 | process.args:(echo and *nopasswd*all*)
+       1 | process.args:(ishidden and create and (true or 1 or yes))
+       1 | process.args:(rmmod and sudo or modprobe and sudo and ("--remove" or "-r"))
+       1 | process.args:(setenv and not (java*_home or runtime_java_home or dbus_launchd_session_bus_socket or ant_home))
+       1 | process.args:(shadowhashdata or "-dump")
+       1 | process.args:(stop or pause or delete or "/pid" or "/im" or "/t" or "/f" or "/t" or "/f" or "/im" or "/pid")
+       1 | process.args:*", "/format*:*", "*-format*:*") and not wildcard(process.command_line, "* /format:table *")] [library where event.type:"start" and file.name in ("jscript.dll", "vbscript.dll")
+       1 | process.args:/\.[a-za-z0-9_\-][a-za-z0-9_\-\.]{1,254}/
+       1 | process.args:/\/(home\/.{1,255}|root)\/\.bash_history/
+       1 | process.args:copy_cred_cache
+       1 | process.args:eyjkzwj1zyi6*
+
