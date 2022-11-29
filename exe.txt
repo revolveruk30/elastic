@@ -27,37 +27,35 @@ COUNT    | EXECUTABLE
       34 | certutil.exe			Displays certification authority (CA) configuration information; used to configure Certificate Services
       34 | werfault.exe			Windows Error Reporting process
       34 | winlogon.exe			Windows Logon, the Windows authentication utility
-      33 | files\\.exe
-      33 | microsoft.workflow.compiler.exe
-      32 | excel.exe
-      30 | netsh.exe
-      30 | x86\\.exe
-      29 | powerpnt.exe
-      28 | schtasks.exe
-      28 | wmiprvse.exe
-      28 | xwizard.exe
-      26 | bginfo.exe
-      26 | cdb.exe
-      26 | csi.exe
-      26 | dnx.exe
-      26 | fsi.exe
-      26 | iexpress.exe
-      26 | msaccess.exe
-      26 | mspub.exe
-      26 | odbcconf.exe
-      26 | rcsi.exe
-      25 | whoami.exe
-      24 | atbroker.exe
-      24 | outlook.exe
-      23 | dllhost.exe
-      23 | spoolsv.exe
-      22 | iexplore.exe
-      22 | reg.exe
-      21 | arp.exe
-      21 | nbtstat.exe
-      21 | wermgr.exe
-      20 | eqnedt32.exe
-      20 | nltest.exe
+      33 | microsoft.workflow.compiler.exe	Permits the execution of arbitrary, unsigned code
+      32 | excel.exe			Microsoft Office spreadsheet application
+      30 | netsh.exe			Network shell command-line
+      29 | powerpnt.exe			Microsoft Office slide-shows presentation application
+      28 | schtasks.exe			Creates, deletes, queries, changes, runs, and ends scheduled tasks
+      28 | wmiprvse.exe			Windows Management Instrumentation Provider Service that performs essential error reporting and monitoring functions
+      28 | xwizard.exe			Extensible Wizards Host Process
+      26 | bginfo.exe			Sysinternals BGInfo, a tool that let users display system information on the desktop background
+      26 | cdb.exe			Debugging tool included with Windows Debugging Tools.
+      26 | csi.exe			Command-line interface for running unsigned C# scripts
+      26 | dnx.exe			.Net Execution environment file included with .Net.
+      26 | fsi.exe			64-bit FSharp (F#) Interpreter included with Visual Studio
+      26 | iexpress.exe			Used to create self-extracting packages from a set of files
+      26 | msaccess.exe			Microsoft Access Database Engine
+      26 | mspub.exe			Microsoft Publisher
+      26 | odbcconf.exe			Command-line tool that allows you to configure ODBC drivers and data source names
+      26 | rcsi.exe			Non-Interactive command line interface included with Visual Studio.
+      25 | whoami.exe			Displays logged on user information
+      24 | atbroker.exe			Helper binary for Assistive Technology (AT)
+      24 | outlook.exe			Microsoft Outlook
+      23 | dllhost.exe			A host for DLL files and binary executables.
+      23 | spoolsv.exe			Runs the Windows OS print spooler service.
+      22 | iexplore.exe			Microsoft Internet Explorer
+      22 | reg.exe			Registry editor that runs from a command line
+      21 | arp.exe			Used to display and modify entries in the Address Resolution Protocol (ARP) cache.
+      21 | nbtstat.exe			Utility that displays protocol statistics and current TCP/IP connections using NBT (NetBIOS over TCP/IP)
+      21 | wermgr.exe			Windows Error Reporting Queue Manager
+      20 | eqnedt32.exe			Part of the Microsoft Equation Editor
+      20 | nltest.exe			Command-line utility used to list domain controllers and enumerate domain trusts
       19 | conhost.exe
       19 | dsget.exe
       19 | dsquery.exe
