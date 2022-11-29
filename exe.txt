@@ -1,7 +1,7 @@
 COUNT    | EXECUTABLE
 -----------------------------------------------------
      250 | powershell.exe, pwsh.exe	Configuration management and task automation framework that consists of a command line shell and a related scripting language
-     122 | cmd.exe			     Command line prompt utility
+     122 | cmd.exe			    Command line prompt utility
      103 | net.exe, net1.exe		Network Control Utility
       99 | rundll32.exe			Loads and runs 32-bit dynamic-link libraries (DLLs).
       97 | wscript.exe			Windows Script Host; executes VBScript files
