@@ -5,10 +5,10 @@ COUNT    | EXECUTABLE
      103 | net.exe, net1.exe		Network Control Utility
      102 | wscript.exe			Windows Script Host; executes VBScript files
       99 | rundll32.exe			Loads and runs 32-bit dynamic-link libraries (DLLs).
+      89 | svchost.exe			Generic host process for services
       93 | regsvr32.exe			Command-line utility to register and unregister OLE controls in the Windows Registry
       86 | cscript.exe			Command-line version of the Windows Script Host 
       83 | mshta.exe			Microsoft HTML Application Host
-      83 | svchost.exe			Generic host process for services
       71 | msiexec.exe			Windows Installer installs, maintains and removes software
       66 | wmic.exe                     Command-line interface for Windows Management Instrumentation (WMI)
       58 | services.exe			Service Control Manager which handles system services.
@@ -30,9 +30,10 @@ COUNT    | EXECUTABLE
       33 | workflow.compiler.exe	Permits the execution of arbitrary, unsigned code
       32 | excel.exe			Microsoft Office spreadsheet application
       30 | netsh.exe			Network shell command-line
+      29 | wermgr.exe			Windows Error Reporting Queue Manager
       29 | powerpnt.exe			Microsoft Office slide-shows presentation application
       28 | schtasks.exe			Creates, deletes, queries, changes, runs, and ends scheduled tasks
-      28 | wmiprvse.exe			Windows Management Instrumentation Provider Service that performs essential error reporting and monitoring functions
+      31 | wmiprvse.exe			Windows Management Instrumentation Provider Service that performs essential error reporting and monitoring functions
       28 | xwizard.exe			Extensible Wizards Host Process
       26 | bginfo.exe			Sysinternals BGInfo, a tool that let users display system information on the desktop background
       26 | cdb.exe			Debugging tool included with Windows Debugging Tools.
@@ -45,16 +46,18 @@ COUNT    | EXECUTABLE
       26 | odbcconf.exe			Command-line tool that allows you to configure ODBC drivers and data source names
       26 | rcsi.exe			Non-Interactive command line interface included with Visual Studio.
       26 | w3wp.exe
+      26 | iexplore.exe			Microsoft Internet Explorer
       25 | whoami.exe			Displays logged on user information
       24 | atbroker.exe			Helper binary for Assistive Technology (AT)
       24 | outlook.exe			Microsoft Outlook
-      23 | dllhost.exe			A host for DLL files and binary executables.
+      24 | lsass.exe
+      26 | dllhost.exe			A host for DLL files and binary executables.
       23 | spoolsv.exe			Runs the Windows OS print spooler service.
-      22 | iexplore.exe			Microsoft Internet Explorer
       22 | reg.exe			Registry editor that runs from a command line
       21 | arp.exe			Used to display and modify entries in the Address Resolution Protocol (ARP) cache.
       21 | nbtstat.exe			Utility that displays protocol statistics and current TCP/IP connections using NBT (NetBIOS over TCP/IP)
-      21 | wermgr.exe			Windows Error Reporting Queue Manager
+      21 | mmc.exe
+      21 | msdt.exe
       21 | control.exe
       20 | eqnedt32.exe			Part of the Microsoft Equation Editor
       20 | nltest.exe			Command-line utility used to list domain controllers and enumerate domain trusts
@@ -74,17 +77,16 @@ COUNT    | EXECUTABLE
       19 | tracert.exe
       18 | csrss.exe
       18 | fltldr.exe
-      18 | msdt.exe
       18 | wsmprovhost.exe
       18 | msmpeng.exe
       17 | bitsadmin.exe
       17 | forfiles.exe
       17 | ftp.exe
-      17 | lsass.exe
       16 | hh.exe
       15 | userinit.exe
       13 | appcmd.exe
-      13 | mmc.exe
+      13 | chrome.exe
+      12 | werfaultsecure.exe
       12 | compattelrunner.exe
       12 | elevation_service.exe
       12 | msedge.exe
@@ -97,380 +99,7 @@ COUNT    | EXECUTABLE
       11 | vssadmin.exe
       11 | wevtutil.exe
       11 | winrshost.exe
+      11 | microsoftedgecp.exe
       10 | dwm.exe
       10 | microsoftedge.exe
-       9 | ctfmon.exe
-       9 | expand.exe
-       9 | magnify.exe
-       9 | makecab.exe
-       9 | searchindexer.exe
-       9 | solarwinds.businesslayerhost.exe
-       9 | werfaultsecure.exe
-       9 | smartscreen.exe
-       8 | acrord32.exe
-       8 | chrome.exe
-       8 | configurationwizard.exe
-       8 | desktopimgdownldr.exe
-       8 | firefox.exe
-       8 | foxitphantompdf.exe
-       8 | foxitreader.exe
-       8 | netflowdatabasemaintenance.exe
-       8 | netflowservice.exe
-       8 | searchprotocolhost.exe
-       8 | solarwinds.administration.exe
-       8 | solarwinds.collector.service.exe
-       8 | solarwindsdiagnostics.exe
-       8 | taskhost.exe
-       8 | umworkerprocess.exe
-       7 | dism.exe
-       7 | displayswitch.exe
-       7 | extrac.exe
-       7 | opera.exe
-       7 | sethc.exe
-       7 | utilman.exe
-       6 | aspnet_regiis.exe
-       6 | auditpol.exe
-       6 | bcdedit.exe
-       6 | csc.exe
-       6 | devicecensus.exe
-       6 | dismhost.exe
-       6 | microsoftedgecp.exe
-       6 | mpcmdrun.exe
-       6 | mscorsvw.exe
-       6 | narrator.exe
-       6 | psexec.exe
-       6 | solarwinds.businesslayerhostx64.exe
-       6 | tttracer.exe
-       6 | wbadmin.exe
-       6 | xcopy.exe
-       5 | al\\google\\chrome\\application\\chrome.exe
-       5 | c\\windows\\system32\\lsass.exe
-       5 | code\\code.exe
-       5 | eventvwr.exe
-       5 | osk.exe
-       5 | regsvr64.exe
-       5 | sihost.exe
-       5 | splwow64.exe
-       5 | users\\\\appdata\\local\\microsoft\\onedrive\\onedrive.exe
-       5 | users\\\\appdata\\local\\programs\\fiddler\\fiddler.exe
-       5 | windows\\system32\\microsoftedgecp.exe
-       5 | windows\\system32\\mobsync.exe
-       5 | windows\\system32\\wwahost.exe
-       5 | windows\\syswow64\\mobsync.exe
-       5 | zoom.exe
-       4 | \\\\tsclient\\.exe
-       4 | acrobat.exe
-       4 | adfind.exe
-       4 | altaro.subagent.exe
-       4 | appv_manage.exe
-       4 | attrib.exe
-       4 | autoit.exe
-       4 | azureadconnect.exe
-       4 | c\\intel\\.exe
-       4 | c\\windows\\softwaredistribution\\.exe
-       4 | c\\windows\\system32\\remotefxvgpudisablement.exe
-       4 | c\\windows\\system32\\sdiagnhost.exe
-       4 | c\\windows\\system32\\svchost.exe
-       4 | c\\windows\\system32\\wermgr.exe
-       4 | ccmexec.exe
-       4 | choco.exe
-       4 | configsyncrun.exe
-       4 | ctxappvservice.exe
-       4 | dns.exe
-       4 | dvls.console.exe
-       4 | edgetransport.exe
-       4 | elastic-endpoint.exe
-       4 | esensor.exe
-       4 | explorer\\iexplore.exe
-       4 | exsetup.exe
-       4 | forefrontactivedirectoryconnector.exe
-       4 | fsipcam.exe
-       4 | ipcamera.exe
-       4 | jenkinsondesktop.exe
-       4 | logman.exe
-       4 | management\\gpautosvc.exe
-       4 | msexchangedelivery.exe
-       4 | msexchangefrontendtransport.exe
-       4 | msexchangehmworker.exe
-       4 | msexchangesubmission.exe
-       4 | mstsc.exe
-       4 | noderunner.exe
-       4 | nservicebus.host.exe
-       4 | nservicebus.host32.exe
-       4 | nservicebus.hosting.azure.hostprocess.exe
-       4 | onedrive.exe
-       4 | onedrivesetup.exe
-       4 | ouigui.wpf.exe
-       4 | sccmclictrwpf.exe
-       4 | scripteditor.exe
-       4 | scriptrunner.exe
-       4 | sdbinst.exe
-       4 | sdiagnhost.exe
-       4 | servermanager.exe
-       4 | servicehub.vsdetouredhost.exe
-       4 | setup100.exe
-       4 | spcaf.client.exe
-       4 | spcaf.settingseditor.exe
-       4 | sqlps.exe
-       4 | swi_fc.exe
-       4 | taskmgr.exe
-       4 | telemetryservice.exe
-       4 | umservice.exe
-       4 | vaultcmd.exe
-       4 | windows\\system32\\mmc.exe
-       4 | windows\\system32\\wermgr.exe
-       4 | commvault\\contentstore\\base\\cvd.exe
-       3 | \\windows\\livekernelreports\\.exe
-       3 | acrodist.exe
-       3 | alog.exe
-       3 | assistant\\amazonassistantservice.exe
-       3 | c\\\\appdata\\\\temp\\idc.tmp\\.exe
-       3 | c\\perflogs\\.exe
-       3 | c\\teamviewer\\teamviewer.exe
-       3 | c\\windows\\bcastdvr\\.exe
-       3 | c\\windows\\cbstemp\\.exe
-       3 | c\\windows\\diagnostics\\.exe
-       3 | c\\windows\\digitallocker\\.exe
-       3 | c\\windows\\dot3svc\\.exe
-       3 | c\\windows\\en-us\\.exe
-       3 | c\\windows\\globalization\\.exe
-       3 | c\\windows\\ime\\.exe
-       3 | c\\windows\\immersivecontrolpanel\\.exe
-       3 | c\\windows\\inf\\.exe
-       3 | c\\windows\\intel\\.exe
-       3 | c\\windows\\l2schemas\\.exe
-       3 | c\\windows\\logs\\.exe
-       3 | c\\windows\\media\\.exe
-       3 | c\\windows\\migration\\.exe
-       3 | c\\windows\\modemlogs\\.exe
-       3 | c\\windows\\policydefinitions\\.exe
-       3 | c\\windows\\prefetch\\.exe
-       3 | c\\windows\\printdialog\\.exe
-       3 | c\\windows\\resources\\.exe
-       3 | c\\windows\\shellcomponents\\.exe
-       3 | c\\windows\\skb\\.exe
-       3 | c\\windows\\system32\\clipup.exe
-       3 | c\\windows\\system32\\mstsc.exe
-       3 | c\\windows\\system32\\spacedeskservice.exe
-       3 | c\\windows\\system32\\speech\\.exe
-       3 | c\\windows\\syswow64\\mstsc.exe
-       3 | c\\windows\\tasks\\.exe
-       3 | c\\windows\\textinput\\.exe
-       3 | c\\windows\\tracing\\.exe
-       3 | c\\windows\\winsxs\\.exe
-       3 | cesshacker.exe
-       3 | chkdsk.exe
-       3 | cofire.exe
-       3 | consent.exe
-       3 | diskshadow.exe
-       3 | doskey.exe
-       3 | epad.exe
-       3 | files\\dell\\supportassistagent\\sre\\sre.exe
-       3 | flashplayerupdateservice.exe
-       3 | fontdrvhost.exe
-       3 | googleupdate.exe
-       3 | gpscript.exe
-       3 | httpd.exe
-       3 | ieinstal.exe
-       3 | indows\\wlansvc\\.exe
-       3 | jucheck.exe
-       3 | jusched.exe
-       3 | lsaiso.exe
-       3 | microsoft.configurationmanagement.exe
-       3 | net1.exenet.exe
-       3 | nginx.exe
-       3 | onts\\.exe
-       3 | pdfcreator.exe
-       3 | php-cgi.exe
-       3 | php.exe
-       3 | processdump.exe
-       3 | pskill.exe
-       3 | psr.exe
-       3 | rdrleakdiag.exe
-       3 | replication\\console\\veeam.backup.shell.exe
-       3 | robocopy.exe
-       3 | route.exe
-       3 | runtimebroker.exe
-       3 | s\\performance\\.exe
-       3 | sihclient.exe
-       3 | slui.exe
-       3 | speechuxwiz.exe
-       3 | sppsvc.exe
-       3 | sqldumper.exe
-       3 | system32\\servermanagerlauncher.exe
-       3 | systemsettings.exe
-       3 | tiworker.exesvchost.exe
-       3 | tomcat.exe
-       3 | unsecapp.exe
-       3 | vsjitdebugger.exe
-       3 | windows\\system32\\dllhost.exe
-       3 | windows\\system32\\drvinst.exe
-       3 | windows\\system32\\wbem\\wmiprvse.exe
-       3 | windows\\system32\\werfaultsecure.exe
-       3 | windows\\syswow64\\msdt.exe
-       3 | windows\\uus\\amd64\\mousocoreworker.exe
-       3 | windows\\veeamvsssupport\\veeamguesthelper.exe
-       3 | wlanext.exe
-       3 | writeminidump.exe
-       3 | wuauclt.exe
-       3 | wudfhost.exe
-       3 | x86\\nmap\\nmap.exe
-       2 | ?\\windows\\system32\\cmd.exe
-       2 | ?\\windows\\system32\\powercfg.exe
-       2 | ?\\windows\\system32\\relpost.exe
-       2 | ?\\windows\\system32\\svchost.exe
-       2 | \\.exe
-       2 | \\system32\\.exe
-       2 | \\syswow64\\.exe
-       2 | \\windows\\remotepackages\\.exe
-       2 | \x86\?\\\.exe
-       2 | \x86\?\\thinkiosk\\thinkiosk\.exe
-       2 | 1,20}\.exe
-       2 | 7z.exe
-       2 | 7za.exe
-       2 | agent\\components\\insight_agent\\\\ir_agent.exe
-       2 | apcptcontrol.exe
-       2 | apmservicecontrol.exe
-       2 | c\\users\\public\\.exe
-       2 | c\\windows\\apppatch\\.exe
-       2 | c\\windows\\branding\\.exe
-       2 | c\\windows\\containers\\.exe
-       2 | c\\windows\\explorer.exe
-       2 | c\\windows\\microsoft.net\\framework\\.exe
-       2 | c\\windows\\notepad.exe
-       2 | c\\windows\\ocr\\.exe
-       2 | c\\windows\\panther\\.exe
-       2 | c\\windows\\provisioning\\.exe
-       2 | c\\windows\\rescache\\.exe
-       2 | c\\windows\\security\\.exe
-       2 | c\\windows\\servicestate\\.exe
-       2 | c\\windows\\setup\\.exe
-       2 | c\\windows\\system\\.exe
-       2 | c\\windows\\system32\\.exe
-       2 | c\\windows\\system32\\cleanmgr.exe
-       2 | c\\windows\\system32\\magnify.exe
-       2 | c\\windows\\system32\\narrator.exe
-       2 | c\\windows\\system32\\osk.exe
-       2 | c\\windows\\system32\\sethc.exe
-       2 | c\\windows\\system32\\systempropertiesremote.exe
-       2 | c\\windows\\system32\\userinit.exe
-       2 | c\\windows\\system32\\xwizard.exe
-       2 | c\\windows\\syswow64\\.exe
-       2 | c\\windows\\syswow64\\cleanmgr.exe
-       2 | c\\windows\\syswow64\\xwizard.exe
-       2 | c\\windows\\temp\\.exe
-       2 | c\\windows\\waas\\.exe
-       2 | c\windows\explorer.exe
-       2 | c\windows\system32\dism.exe
-        2 | c\windows\system32\mmc.exe
-       2 | c\windows\syswow64\dism.exe
-       2 | c\windows\syswow64\mmc.exe
-       2 | client\\.exe
-       2 | corporation\\osctogpautoservice\\osctogpautosvc.exe
-       2 | cpthost.exe
-       2 | cptinstall.exe
-       2 | dc\\acrobat\\acrobat.exe
-       2 | dfsrs.exe
-       2 | dins\\.exe
-       2 | dows\\assembly\\.exe
-       2 | dropbox.exe
-       2 | ecurity\\.exe
-       2 | ellexperiences\\.exe
-       2 | erflogs\\.exe
-       2 | esentutl.exe
-       2 | event.code1winlogon.exe
-       2 | exporttopdfcmd.exe
-       2 | extrac32.exe
-       2 | files?\x86\\\microsoft?office\\root\\office\\winword.exe
-       2 | foxitphantompdfupdater.exe
-       2 | foxitreaderupdater.exe
-       2 | iissetup.exe
-       2 | installer.exe
-       2 | intel\\wireless\\setup.exe
-       2 | logioptionsmgr.exe
-       2 | m_plugin_launcher.exe
-       2 | microsoft\\edgewebview\\application\\\\msedgewebview2.exe
-       2 | mouse.exe
-       2 | musnotification.exe
-       2 | musnotificationux.exe
-       2 | office\\root\\office\\winword.exe
-       2 | ows\\appcompat\\.exe
-       2 | ows\\pla\\.exe
-       2 | pe.original_file_namemsbuild.exe
-       2 | poqexec.exe
-       2 | printfilterpipelinesvc.exe
-       2 | printisolationhost.exe
-       2 | procexp??.exe
-       2 | program?files\\microsoft?office\\root\\office\\winword.exe
-       2 | programdata\\.exe
-       2 | ps\\microsoft.microsoftedge_\\microsoftedge.exe
-       2 | rdpsaproxy.exe
-       2 | rdpsauachelper.exe
-       2 | repository\\\\igfxcuiservice.exe
-       2 | screenmagnifier.exe
-       2 | setupcl.exe
-       2 | shared\\clicktorun\\officec2rclient.exe
-       2 | slack.exe
-       2 | solarwinds.credentials.orion.webapi.exe
-       2 | solarwinds.orion.apipoller.service.exe
-       2 | solarwinds.orion.topology.calculator.exe
-       2 | sqlservr.exe
-       2 | sr.exe
-       2 | teamviewer.exe
-       2 | thunderbird.exe
-       2 | users\\public\\documents\\syspin.exe
-       2 | users\\public\\ibm\\clientsolutions\\.exe
-       2 | users\\public\\res\\filewatcher.exe
-       2 | users\\public\\res\\remotelite.exe
-       2 | usoclient.exe
-       2 | utilman2.exe
-       2 | vbc.exe
-       2 | whoami.exewmiprvse.exe
-       2 | windows\\adminarsenal\\pdq.exe
-       2 | windows\\cainvokerservice.exe
-       2 | windows\\eset-remote-install-service.exe
-       2 | windows\\explorer.exe
-       2 | windows\\panther\\diagtrackrunner.exe
-       2 | windows\\propatches\\scheduler\\stschedex.exe
-       2 | windows\\psexesvc.exe
-       2 | windows\\remoteauditservice.exe
-       2 | windows\\servicing\\gc64\\tzupd.exe
-       2 | windows\\servicing\\trustedinstaller.exe
-       2 | windows\\system32\\certsrv.exe
-       2 | windows\\system32\\cloudexperiencehostbroker.exe
-       2 | windows\\system32\\cmd.exe
-       2 | windows\\system32\\compattelrunner.exe
-       2 | windows\\system32\\dfsrs.exe
-       2 | windows\\system32\\diskshadow.exe
-       2 | windows\\system32\\igfxcuiservice.exe
-       2 | windows\\system32\\kodak\\kds_i4x50\\lib\\lexexe.exe
-       2 | windows\\system32\\lsass.exe
-       2 | windows\\system32\\mousocoreworker.exe
-       2 | windows\\system32\\musnotification.exe
-       2 | windows\\system32\\musnotificationux.exe
-       2 | windows\\system32\\musnotifyicon.exe
-       2 | windows\\system32\\net1.exe
-       2 | windows\\system32\\netplwiz.exe
-       2 | windows\\system32\\oobe\\msoobe.exe
-       2 | windows\\system32\\searchindexer.exe
-       2 | windows\\system32\\srtasks.exe
-       2 | windows\\system32\\taskhostex.exe
-       2 | windows\\system32\\taskhostw.exe
-       2 | windows\\system32\\upfc.exe
-       2 | windows\\system32\\usoclient.exe
-       2 | windows\\system32\\usocoreworker.exe
-       2 | windows\\system32\\vds.exe
-       2 | windows\\system32\\vssvc.exe
-       2 | windows\\system32\\wbem\\wmiapsrv.exe
-       2 | windows\\syswow64\\cmd.exe
-       2 | windows\\syswow64\\nwxexesvc\\nwxexesvc.exe
-       2 | windows\\temp\\ie.tmp\\ie-support\\ienrcore.exe
-       2 | windows\\uus\\amd64\\usocoreworker.exe
-       2 | windows\\veeam\\backup\\veeamdeploymentsvc.exe
-       2 | windows\\veeamlogshipper\\veeamlogshipper.exe
-       2 | winrshost.exesvchost.exe
-       2 | workfolders.exe
-       2 | x86\\ossec-agent\\wazuh-agent.exe
-       2 | xe,cmstp.exe
-       2 | zoom_launcher.exe
-     
+      10 | mobsync.exe
