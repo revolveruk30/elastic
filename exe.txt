@@ -45,20 +45,20 @@ COUNT    | EXECUTABLE
       26 | mspub.exe			Microsoft Publisher
       26 | odbcconf.exe			Command-line tool that allows you to configure ODBC drivers and data source names
       26 | rcsi.exe			Non-Interactive command line interface included with Visual Studio.
-      26 | w3wp.exe
+      26 | w3wp.exe			An Internet Information Services (IIS) worker process which runs web applications, and is responsible for handling requests sent to a web Server
       26 | iexplore.exe			Microsoft Internet Explorer
       25 | whoami.exe			Displays logged on user information
       24 | atbroker.exe			Helper binary for Assistive Technology (AT)
       24 | outlook.exe			Microsoft Outlook
-      24 | lsass.exe
+      24 | lsass.exe			Local Security Authentication Server; verifies the validity of user logons
       26 | dllhost.exe			A host for DLL files and binary executables.
       23 | spoolsv.exe			Runs the Windows OS print spooler service.
       22 | reg.exe			Registry editor that runs from a command line
       21 | arp.exe			Used to display and modify entries in the Address Resolution Protocol (ARP) cache.
       21 | nbtstat.exe			Utility that displays protocol statistics and current TCP/IP connections using NBT (NetBIOS over TCP/IP)
-      21 | mmc.exe
-      21 | msdt.exe
-      21 | control.exe
+      21 | mmc.exe			Microsoft Management Console; allows you to manage your Windows network with a variety of snap-ins
+      21 | msdt.exe			Microsoft's Diagnostic Troubleshooting Wizard
+      21 | control.exe			Windows Control Panel
       20 | eqnedt32.exe			Part of the Microsoft Equation Editor
       20 | nltest.exe			Command-line utility used to list domain controllers and enumerate domain trusts
       19 | conhost.exe
