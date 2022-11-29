@@ -1,7 +1,7 @@
 COUNT    | EXECUTABLE
 -----------------------------------------------------
      250 | powershell.exe, pwsh.exe	Configuration management and task automation framework that consists of a command line shell and a related scripting language
-     122 | cmd.exe                 Command line prompt utility
+     122 | cmd.exe                      Command line prompt utility
      103 | net.exe, net1.exe		Network Control Utility
       99 | rundll32.exe			Loads and runs 32-bit dynamic-link libraries (DLLs).
       97 | wscript.exe			Windows Script Host; executes VBScript files
@@ -9,14 +9,14 @@ COUNT    | EXECUTABLE
       86 | cscript.exe			Command-line version of the Windows Script Host 
       83 | mshta.exe			Microsoft HTML Application Host
       73 | svchost.exe			Generic host process for services
-      66 | wmic.exe                Command-line interface for Windows Management Instrumentation (WMI)
+      66 | wmic.exe                     Command-line interface for Windows Management Instrumentation (WMI)
       58 | services.exe			Service Control Manager which handles system services.
       54 | msbuild.exe			Microsoft Build Engine is a platform for building applications.
       52 | explorer.exe			Manages the Graphical Shell component of the Windows Operating System, including the file manager and desktop
       45 | installutil.exe		Command-line utility that allows you to install and uninstall server resources
       43 | regasm.exe			Assembly Registration tool adds entries to the registry
       41 | msiexec.exe			Windows Installer installs, maintains and removes software
-      41 | smss.exe                Manages the startup of all user sessions in Windows
+      41 | smss.exe                     Manages the startup of all user sessions in Windows
       39 | winword.exe			Microsoft Word text processing software
       38 | cmstp.exe			Microsoft Connection Manager Profile Installer
       38 | msxsl.exe			Command line utility to perform transformations on XML files. 
