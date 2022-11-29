@@ -27,7 +27,7 @@ COUNT    | EXECUTABLE
       34 | certutil.exe			Displays certification authority (CA) configuration information; used to configure Certificate Services
       34 | werfault.exe			Windows Error Reporting process
       34 | winlogon.exe			Windows Logon, the Windows authentication utility
-      33 | microsoft.workflow.compiler.exe	Permits the execution of arbitrary, unsigned code
+      33 | workflow.compiler.exe	Permits the execution of arbitrary, unsigned code
       32 | excel.exe			Microsoft Office spreadsheet application
       30 | netsh.exe			Network shell command-line
       29 | powerpnt.exe			Microsoft Office slide-shows presentation application
