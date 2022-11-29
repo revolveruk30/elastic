@@ -506,7 +506,6 @@ COUNT    | EXECUTABLE
        2 | x86\\ossec-agent\\wazuh-agent.exe
        2 | xe,cmstp.exe
        2 | zoom_launcher.exe
-       1 | 
        1 | ?\\windows\\splwow64.exe
        1 | ?\\windows\\system32\\lsass.exe
        1 | ?\\windows\\system32\\msiexec.exe
