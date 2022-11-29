@@ -45,7 +45,7 @@ COUNT    | EXECUTABLE
       26 | mspub.exe			Microsoft Publisher
       26 | odbcconf.exe			Command-line tool that allows you to configure ODBC drivers and data source names
       26 | rcsi.exe			Non-Interactive command line interface included with Visual Studio.
-      26 | w3wp.exe			An Internet Information Services (IIS) worker process which runs web applications, and is responsible for handling requests sent to a web Server
+      26 | w3wp.exe			An Internet Information Services (IIS) worker process which runs web applications; responsible for handling web requests 
       26 | iexplore.exe			Microsoft Internet Explorer
       25 | whoami.exe			Displays logged on user information
       24 | atbroker.exe			Helper binary for Assistive Technology (AT)
