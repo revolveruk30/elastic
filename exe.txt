@@ -21,7 +21,7 @@ COUNT    | EXECUTABLE
       38 | cmstp.exe			Microsoft Connection Manager Profile Installer
       38 | msxsl.exe			Command line utility to perform transformations on XML files. 
       37 | regsvcs.exe			Provides a runtime environment and code library for application development, testing, and execution
-      37 | sc.exe             Service Configuration Tool allows administrative users to establish a program as a Windows service
+      37 | sc.exe                  Service Configuration Tool allows administrative users to establish a program as a Windows service
       35 | ieexec.exe			Microsoft IE Execute shell
       35 | wininit.exe			Windows Initialization application
       34 | certutil.exe			Displays certification authority (CA) configuration information; used to configure Certificate Services
