@@ -1,0 +1,245 @@
+Elastic + Splunk Detection Rules Mentions	Binary	Description	ATT&CK® Techniques
+9	7z.exe	File compression and data archiving program	T1560.001: Archive Collected Data
+	acccheckconsole.exe	Verifies UI accessibility requirements	T1218: System Binary Proxy Execution
+	adplus.exe	Debugging tool included with Windows Debugging Tools	T1003.001: LSASS Memory
+5	advancedrun.exe	Nirsoft tool that allows you to run a program with different settings that you choose	T1562.001: Impair Defenses: Disable or Modify Tools
+	advpack.dll	Utility for installing software and drivers with rundll32.exe	T1218.011: Rundll32
+	agentexecutor.exe	Intune Management Extension included on Intune Managed Devices	T1218: System Binary Proxy Execution
+6	appcmd.exe	the single command line tool for managing IIS 7 and above	T1505.004: IIS Components
+	appinstaller.exe	Tool used for installation of AppX/MSIX applications on Windows 10	T1105: Ingress Tool Transfer
+	appvlp.exe	Application Virtualization Utility Included with Microsoft Office 2016	T1218: System Binary Proxy Execution
+13	arp.exe	Used to display and modify entries in the Address Resolution Protocol (ARP) cache.	T1018: Remote System Discovery
+	aspnet_compiler.exe	ASP.NET Compilation Tool	T1127: Trusted Developer Utilities Proxy Execution
+13	at.exe	used to schedule tasks on a system to run at a specified date or time	T1053.002: At
+20	atbroker.exe	Helper binary for Assistive Technology (AT)	T1218: System Binary Proxy Execution
+12	attrib.exe	process displays all of the attributes associated with listed files in the Windows command prompt.	T1564: Hide Artifacts
+8	bash.exe	File used by Windows subsystem for Linux	T1202: Indirect Command Execution
+10	bcdedit.exe	modifies the boot configuration data store	T1490: Inhibit System Recovery
+11	bginfo.exe	Sysinternals BGInfo, a tool that let users display system information on the desktop background	T1218: System Binary Proxy Execution
+33	bitsadmin.exe	Used for managing background intelligent transfer	T1105: Ingress Tool Transfer
+13	cacls.exe	Display or modify Access Control Lists (ACLs) for files and folders	T1222.001: File Permissions Modification
+10	calc.exe	Windows calculator	T1036.005: Masquerading Legitimate Name
+11	cdb.exe	Debugging tool included with Windows Debugging Tools.	T1127: Trusted Developer Utilities Proxy Execution
+5	certoc.exe	Used for installing certificates	T1218: System Binary Proxy Execution
+	certreq.exe	Used for requesting and managing certificates	T1105: Ingress Tool Transfer
+38	certutil.exe	Displays certification authority (CA) configuration information; used to configure Certificate Services	T1105: Ingress Tool Transfer
+5	cipher.exe	used to manage encrypted data by using the Encrypting File System (EFS)	T1561.001: Disk Wipe: Disk Content Wipe
+	cl_invocation.ps1	Aero diagnostics script	T1216: System Script Proxy Execution
+	cl_loadassembly.ps1	PowerShell Diagnostic Script	T1216: System Script Proxy Execution
+	cl_mutexverifiers.ps1	Proxy execution with CL_Mutexverifiers.ps1	T1216: System Script Proxy Execution
+86	cmd.exe	Command line prompt utility	T1059.003: Windows Command Shell
+3	cmdkey.exe	creates, lists, and deletes stored user names and passwords or credentials.	T1078: Valid Accounts
+	cmdl32.exe	Microsoft Connection Manager Auto-Download	T1105: Ingress Tool Transfer
+20	cmstp.exe	Microsoft Connection Manager Profile Installer	T1218.003: CMSTP
+	comsvcs.dll	COM+ Services	T1003.001: LSASS Memory
+	configsecuritypolicy.exe	Used to manage settings in Windows Defender	T1567: Exfiltration Over Web Service
+6	conhost.exe	Console window host	T1202: Indirect Command Execution
+3	consent.exe	process called during User Account Control (UAC)	T1134: Access Token Manipulation
+13	control.exe	Binary used to launch control panel items in Windows	T1218.002: Control Panel
+	coregen.exe	Microsoft CoreCLR Native Image Generator	T1055: Process Injection
+	createdump.exe	Microsoft .NET Runtime Crash Dump Generator (included in .NET Core)	T1003: OS Credential Dumping
+9	csc.exe	Binary file used by .NET to compile C# code	T1127: Trusted Developer Utilities Proxy Execution
+43	cscript.exe	Command-line version of the Windows Script Host 	T1564.004: NTFS File Attributes
+11	csi.exe	Command-line interface for running unsigned C# scripts	T1127: Trusted Developer Utilities Proxy Execution
+14	csrss.exe	provides the user mode side of the Win32 subsystem and is included in Windows NT 3.1 and later	
+3	curl.exe	command line tool and library for transferring data with URLs	T1048: Exfiltration over Alternative Protocol
+	customshellhost.exe	A host process that is used by custom shells when using Windows in Kiosk mode.	T1218: System Binary Proxy Execution
+	datasvcutil.exe	a command-line tool provided by WCF Data Services	T1567: Exfiltration Over Web Service
+	defaultpack.exe	gets downloaded when the user forgets to uncheck the option to set Bing as the default search provider	T1218: System Binary Proxy Execution
+	desk.cpl	Desktop Settings Control Panel	T1218.011: Rundll32
+4	desktopimgdownldr.exe	Windows binary used to configure lockscreen/desktop image	T1105: Ingress Tool Transfer
+	devicecredentialdeployment.exe	Device Credential Deployment	T1564: Hide Artifacts
+	devtoolslauncher.exe	Binary will execute specified binary. Part of VS/VScode installation.	T1127: Trusted Developer Utilities Proxy Execution
+	dfshim.dll	ClickOnce engine in Windows used by .NET	T1127: Trusted Developer Utilities Proxy Execution
+3	dfsvc.exe	ClickOnce engine in Windows used by .NET	T1127: Trusted Developer Utilities Proxy Execution
+	diantz.exe	Binary that package existing files into a cabinet (.cab) file	T1105: Ingress Tool Transfer
+8	diskshadow.exe	exposes the functionality offered by the volume shadow copy Service (VSS).	T1202: Indirect Command Execution
+11	dism.exe	Deployment Imaging Servicing and Management; used to service and prepare images for the OS	
+3	displayswitch.exe	used on the command line to open the presentation (or projection) sidebar.	T1546.008: Accessibility Features
+28	dllhost.exe	the Windows "COM Surrogate" process	T1055.001: Dynamic-link Library Injection
+5	dnscmd.exe	A command-line interface for managing DNS servers	T1543.003: Windows Service
+11	dnx.exe	.Net Execution environment file included with .Net.	T1127: Trusted Developer Utilities Proxy Execution
+	dotnet.exe	dotnet.exe comes with .NET Framework	T1218: System Binary Proxy Execution
+10	dsget.exe	View active directory objects	
+21	dsquery.exe	command-line utility that can be used to query Active Directory for information from a system within a domain	T1087.002: Account Discovery
+	dump64.exe	Memory dump tool that comes with Microsoft Visual Studio	T1003.001: LSASS Memory
+10	dwm.exe	 runs the Desktop Windows Manager, a window management utility	
+	dxcap.exe	DirectX diagnostics/debugger included with Visual Studio.	T1127: Trusted Developer Utilities Proxy Execution
+4	esentutl.exe	Binary for working with Microsoft Joint Engine Technology (JET) database	T1105: Ingress Tool Transfer
+3	eventvwr.exe	Displays Windows Event Logs in a GUI window.	T1548.002: Bypass User Account Control
+28	excel.exe	Microsoft Office spreadsheet application	T1105: Ingress Tool Transfer
+6	expand.exe	Binary that expands one or more compressed files	T1105: Ingress Tool Transfer
+50	explorer.exe	Manages the Graphical Shell component of the Windows Operating System, including the file manager and desktop	T1202: Indirect Command Execution
+5	extexport.exe	Load a DLL located in the c:\test folder with a specific name.	T1218: System Binary Proxy Execution
+3	extrac32.exe	Extract to ADS, copy or overwrite a file with Extrac32.exe	T1105: Ingress Tool Transfer
+3	findstr.exe	Write to ADS, discover, or download files with Findstr.exe	T1185: Browser Session Hijacking
+	finger.exe	Displays information about a user or users on a specified remote computer	T1105: Ingress Tool Transfer
+	fltmc.exe	Filter Manager Control Program	T1562.001: Disable or Modify Tools
+5	fodhelper.exe	Manage Optional Features	T1548.002: Bypass User Account Control
+19	forfiles.exe	Selects and executes a command on a file or set of files	T1202: Indirect Command Execution
+11	fsi.exe	64-bit FSharp (F#) Interpreter included with Visual Studio	T1059: Command and Scripting Interpreter
+	fsianycpu.exe	32/64-bit FSharp (F#) Interpreter included with Visual Studio.	T1059: Command and Scripting Interpreter
+	fsutil.exe	File System Utility	T1485: Data Destruction
+16	ftp.exe	A binary designed for connecting to FTP servers	T1202: Indirect Command Execution
+	gfxdownloadwrapper.exe	Remote file download used by the Intel Graphics Control Panel	T1105: Ingress Tool Transfer
+10	gpresult.exe	displays policy settings that were enforced on the computer for the specified user when the user logged on	T1615: Group Policy Discover
+8	gpscript.exe	Used by group policy to process scripts	T1218: System Binary Proxy Execution
+11	gpupdate.exe	updates Group Policy settings	
+40	hh.exe	Binary used for processing chm files in Windows	T1105: Ingress Tool Transfer
+15	icacls.exe	Integrity Control of Access Control List Settings" process	T1222.001: File Permissions Modification
+8	ie4uinit.exe	Executes commands from a specially prepared ie4uinit.inf file.	T1218: System Binary Proxy Execution
+	ieadvpack.dll	INF installer for Internet Explorer. Has much of the same functionality as advpack.dll.	T1218.011: Rundll32
+19	ieexec.exe	Microsoft IE Execute shell	T1105: Ingress Tool Transfer
+	ieframe.dll	Internet Browser DLL for translating HTML code.	T1218.011: Rundll32
+11	iexpress.exe	used for distributing self-contained installation packages	
+	ilasm.exe	used for compile c# code into dll or exe.	T1127: Trusted Developer Utilities Proxy Execution
+	imewdbld.exe	Microsoft IME Open Extended Dictionary Module	T1105: Ingress Tool Transfer
+8	infdefaultinstall.exe	Binary used to perform installation based on content inside inf files	T1218: System Binary Proxy Execution
+29	installutil.exe	Command-line utility that allows you to install and uninstall server resources	T1218.004: InstallUtil
+14	ipconfig.exe	 allows you to display IP information, as well as release it, renew it, and other options.	T1016: System Network Configuration Discovery
+	jsc.exe	Binary file used by .NET to compile JavaScript code to .exe or .dll format	T1127: Trusted Developer Utilities Proxy Execution
+	launch-vsdevshell.ps1	Locates and imports a Developer PowerShell module and calls the Enter-VsDevShell cmdlet	T1216: System Script Proxy Execution
+	ldifde.exe	Creates, modifies, and deletes LDAP directory objects.	T1105: Ingress Tool Transfer
+37	lsass.exe	Local Security Authentication Server; verifies the validity of user logons	T1003: OS Credential Dumping
+6	makecab.exe	Binary to package existing files into a cabinet (.cab) file	T1564.004: NTFS File Attributes
+	manage-bde.wsf	Script for managing BitLocker	T1216: System Script Proxy Execution
+12	mavinject.exe	Used by App-v in Windows	T1218.013: Mavinject
+	mftrace.exe	Trace log generation tool for Media Foundation Tools.	T1127: Trusted Developer Utilities Proxy Execution
+31	microsoft.workflow.compiler.exe	Permits the execution of arbitrary, unsigned code	T1127: Trusted Developer Utilities Proxy Execution
+21	mmc.exe	Load snap-ins to locally and remotely manage Windows systems	T1218.014: MMC
+4	mobsync.exe	mobile synchronization component of the Internet Explorer web browser.	T1055: Process Injection
+3	mofcomp.exe	Managed Object Format (MOF) compiler	T1546.003: WMI Event Subscription
+4	mpcmdrun.exe	Binary part of Windows Defender. Used to manage settings in Windows Defender	T1105: Ingress Tool Transfer
+54	msbuild.exe	Microsoft Build Engine is a platform for building applications	T1036: Masquerading
+8	msconfig.exe	troubleshooting tool used to temporarily disable or re-enable software, device drivers	T1218: System Binary Proxy Execution
+	msdeploy.exe	Microsoft tool used to deploy Web Applications.	T1218: System Binary Proxy Execution
+21	msdt.exe	Microsoft diagnostics tool	T1218: System Binary Proxy Execution
+48	mshta.exe	Microsoft HTML Application Host	T1105: Ingress Tool Transfer
+	mshtml.dll	Microsoft HTML Viewer	T1218.011: Rundll32
+29	msiexec.exe	Windows Installer installs, maintains and removes software	T1218.007: Msiexec
+	msohtmed.exe	Microsoft Office component	T1105: Ingress Tool Transfer
+14	mspub.exe	Microsoft Publisher	T1105: Ingress Tool Transfer
+10	msxsl.exe	Command line utility to perform transformations on XML files.	T1218: System Binary Proxy Execution
+4	narrator.exe	a screen-reading app built into Windows	T1546.008: Accessibility Features
+10	nbstat.exe	Utility that displays protocol statistics and current TCP/IP connections using NBT (NetBIOS over TCP/IP)	T1016: System Network Configuration Discovery
+66	net.exe	Network Control Utility	T1135: Network Share Discovery
+39	net1.exe	Network Control Utility	T1135: Network Share Discovery
+28	netsh.exe	Network shell command-line	T1546.007: Netsh Helper DLL
+15	netstat.exe	Displays active TCP connections, ports on which the computer is listening, Ethernet statistics, the IP routing table	
+16	nltest.exe	Command-line utility used to list domain controllers and enumerate domain trusts	T1482: Domain Trust Discovery
+10	notepad.exe	simple text editor for Windows	T1055: Process Injection
+11	nslookup.exe	administrative tool used for testing and troubleshooting DNS servers	T1016: System Network Configuration Discovery
+4	ntdsutil.exe	Command line utility used to export Active Directory.	T1003.003: NTDS
+32	odbcconf.exe	Command-line tool that allows you to configure ODBC drivers and data source names	T1218.008: Odbcconf
+5	offlinescannershell.exe	Windows Defender Offline Shell	T1218: System Binary Proxy Execution
+	onedrivestandaloneupdater.exe	OneDrive Standalone Updater	T1105: Ingress Tool Transfer
+	openconsole.exe	Console Window host for Windows Terminal	T1202: Indirect Command Execution
+15	pcalua.exe	Program Compatibility Assistant	T1202: Indirect Command Execution
+8	pcwrun.exe	Program Compatibility Wizard	T1218: System Binary Proxy Execution
+	pcwutl.dll	Microsoft HTML Viewer	T1218.011: Rundll32
+	pester.bat	Used as part of the Powershell pester	T1216: System Script Proxy Execution
+13	ping.exe	operating system utility commonly used to troubleshoot and verify network connections.	T1018: Remote System Discovery
+	pktmon.exe	Captures Network Packets	T1040: Network Sniffing
+5	pnputil.exe	Used for installing drivers	T1547: Boot or Logon Autostart Execution
+20	powerpnt.exe	Microsoft Office slide-shows presentation application	T1105: Ingress Tool Transfer
+8	presentationhost.exe	File is used for executing Browser applications	T1218: System Binary Proxy Execution
+3	print.exe	Used by Windows to send files to the printer	T1105: Ingress Tool Transfer
+	printbrm.exe	Printer Migration Command-Line Tool	T1105: Ingress Tool Transfer
+5	procdump.exe	SysInternals Memory Dump Tool	T1202: Indirect Command Execution
+	protocolhandler.exe	Microsoft Office binary	T1105: Ingress Tool Transfer
+3	psr.exe	Windows Problem Steps Recorder, used to record screen and clicks.	T1113: Screen Capture
+	pubprn.vbs	Proxy execution with Pubprn.vbs	T1216.001: PubPrn
+10	qprocess.exe	displays information about processes that are running on a Remote Desktop Session Host	
+10	quser.exe	displays information about user sessions on a Remote Desktop Session Host server	T1049: System Network Connections Discovery
+14	qwinsta.exe	displays information about sessions on a Remote Desktop Session Host server	
+16	rasautou.exe	Windows Remote Access Dialer	T1218: System Binary Proxy Execution
+7	rclone.exe	command-line program to manage files on cloud storage	T1567.002: Exfiltration to Cloud Storage
+11	rcsi.exe	Non-Interactive command line interface included with Visual Studio.	T1127: Trusted Developer Utilities Proxy Execution
+3	rdpclip.exe	provides function for the Terminal Services server that allows you to copy and paste between server and client	T1055: Process Injection
+3	rdpwinst.exe	RDP wrapper library tool designed to enable remote desktop host support	T1021.001: Remote Desktop Protocol
+	rdrleakdiag.exe	Microsoft Windows resource leak diagnostic tool	T1003: OS Credential Dumping
+28	reg.exe	Registry editor that runs from a command line	T1003.002: Security Account Manager
+47	regasm.exe	Assembly Registration tool adds entries to the registry	T1218.009: Regsvcs/Regasm
+6	regedit.exe	Used by Windows to manipulate registry	T1564.004: NTFS File Attributes
+3	regini.exe	Used to manipulate the registry	T1564.004: NTFS File Attributes
+8	register-cimprovider.exe	Used to register new wmi providers	T1218: System Binary Proxy Execution
+3	regsv32.exe	command-line utility for registering and unregistering DLLs and ActiveX controls	T1218.010: System Binary Proxy Execution
+33	regsvcs.exe	Provides a runtime environment and code library for application development, testing, and execution	T1218.009: Regsvcs/Regasm
+38	regsvr32.exe	Command-line utility to register and unregister OLE controls in the Windows Registry	T1218.010: Regsvr32
+3	regsvr64.exe	Command-line utility to register and unregister OLE controls in the Windows Registry	T1218: System Binary Proxy Execution
+	remote.exe	Debugging tool included with Windows Debugging Tools	T1127: Trusted Developer Utilities Proxy Execution
+3	replace.exe	Used to replace file with another file	T1105: Ingress Tool Transfer
+3	route.exe	Manipulates network routing tables	T1016: System Network Configuration Discovery
+3	rpcping.exe	Used to verify rpc connection	T1003: OS Credential Dumping
+98	rundll32.exe	Loads and runs 32-bit dynamic-link libraries (DLLs).	T1218.011: Rundll32
+8	runonce.exe	Executes a Run Once Task that has been configured in the registry	T1218: System Binary Proxy Execution
+5	runscripthelper.exe	Execute target PowerShell script	T1218: System Binary Proxy Execution
+50	sc.exe	Service Configuration Tool allows administrative users to establish a program as a Windows service	T1564.004: NTFS File Attributes
+57	schtasks.exe	Creates, deletes, queries, changes, runs, and ends scheduled tasks	T1053.005: Scheduled Task
+8	scriptrunner.exe	Execute binary through proxy binary to evade defensive counter measures	T1202: Indirect Command Execution
+4	sdbinst.exe	deploy customized database (.sdb) files 	T1546.011: Application Shimming
+4	sdclt.exe	the process for the Vista backup tool	T1548.002: Bypass User Account Control
+7	searchindexer.exe	Windows service that handles indexing of your files for Windows Search	T1574: Hijack Execution Flow
+19	searchprotocolhost.exe	part of the Windows Indexing Service, an application that indexes files on the local drive	T1574: Hijack Execution Flow
+3	sethc.exe	process associated with Windows NT High Contrast Invocation	T1546.008: Accessibility Features
+	setres.exe	Configures display settings	T1218: System Binary Proxy Execution
+5	settingsynchost.exe	Host Process for Setting Synchronization	T1218: System Binary Proxy Execution
+	setupapi.dll	Windows Setup Application Programming Interface	T1218.011: Rundll32
+	shdocvw.dll	Shell Doc Object and Control Library.	T1218.011: Rundll32
+	shell32.dll	Windows Shell Common Dll	T1218.011: Rundll32
+41	smss.exe	responsible for running the Session Manager Subsystem (or Windows Session Manager)	
+32	spoolsv.exe	Runs the Windows OS print spooler service.	T1547.012: Print Processors
+	sqldumper.exe	Debugging utility included with Microsoft SQL.	T1003: OS Credential Dumping
+4	sqlps.exe	Microsoft SQL Server binary that loads SQL Server cmdlets	T1218: System Binary Proxy Execution
+4	sqltoolsps.exe	Microsoft SQL Server binary that loads SQL Server cmdlets	T1218: System Binary Proxy Execution
+	squirrel.exe	Microsoft Teams binary that update the existing installed Nuget/squirrel package.	T1218: System Binary Proxy Execution
+5	stordiag.exe	Storage diagnostic tool	T1218: System Binary Proxy Execution
+5	syncappvpublishingserver.exe	Used by App-v to get App-v server lists	T1218: System Binary Proxy Execution
+	syncappvpublishingserver.vbs	Script used related to app-v and publishing server	T1216: System Script Proxy Execution
+	syssetup.dll	Windows NT System Setup	T1218.011: Rundll32
+14	systeminfo.exe	displays system information on hardware and software components	T1082: System Information Discovery
+4	takeown.exe	command-line tool that can be used to take ownership of files and folders.	T1222.001: File Permissions Modification
+6	taskkill.exe	command which ends one or more tasks or processes	T1489: Service Stop
+10	tasklist.exe	Displays a list of currently running processes on the local computer or on a remote computer	T1057: Process Discovery
+	te.exe	Testing tool included with Microsoft Test Authoring and Execution Framework (TAEF).	T1127: Trusted Developer Utilities Proxy Execution
+10	tracert.exe	 allows the user to trace the TCP/IP steps from source to destination	T1018: Remote System Discovery
+	tracker.exe	Tool included with Microsoft .Net Framework.	T1127: Trusted Developer Utilities Proxy Execution
+5	ttdinject.exe	Used by Windows 1809 and newer to Debug Time Travel 	T1127: Trusted Developer Utilities Proxy Execution
+5	tttracer.exe	Used by Windows 1809 and newer to Debug Time Travel	T1127: Trusted Developer Utilities Proxy Execution
+	unregmp2.exe	Microsoft Windows Media Player Setup Utility	T1202: Indirect Command Execution
+	url.dll	Internet Shortcut Shell Extension DLL.	T1218.011: Rundll32
+12	userinit.exe	responsible for executing the logon scripts, re-establishing the network connection, and then starting Explorer.exe	T1037: Boot or Logon Initialization Scripts
+	utilityfunctions.ps1	PowerShell Diagnostic Script	T1216: System Script Proxy Execution
+3	utilman.exe	utility program that is launched when the "Ease of Access" button on the login screen is clicked.	T1546.008: Accessibility Features
+	vbc.exe	Binary file used for compile vbs code	T1127: Trusted Developer Utilities Proxy Execution
+8	verclsid.exe	Used to verify a COM object before it is instantiated by Windows Explorer	T1218.012: Verclsid
+	visualuiaverifynative.exe	manual and automated testing of Microsoft UI Automation implementation and controls.	T1218: System Binary Proxy Execution
+	vsiisexelauncher.exe	Binary will execute specified binary. Part of VS/VScode installation.	T1218: System Binary Proxy Execution
+	vsjitdebugger.exe	Just-In-Time (JIT) debugger included with Visual Studio	T1127: Trusted Developer Utilities Proxy Execution
+11	vssadmin.exe	Displays current volume shadow copy backups and all installed shadow copy writers and providers	T1490: Inhibit System Recovery
+4	w32tm.exe	command-line tool for configuring, monitoring, or troubleshooting the Windows Time service	T1124: System Time Discovery
+7	w3wp.exe	An Internet Information Services (IIS) worker process which runs web applications; responsible for handling web requests 	T1505.004: IIS Components
+5	wab.exe	Windows address book manager	T1218: System Binary Proxy Execution
+8	wbadmin.exe	 used to back up and restore operating systems, drive volumes, files, folders and applications	T1490: Inhibit System Recovery
+17	werfault.exe	Windows Error Reporting process of Windows 10	
+48	wermgr.exe	Windows Error Reporting Queue Manager	T1055: Process Injection
+18	wevtutil.exe	Enables you to retrieve information about event logs and publishers	T1005: Data from Local System
+	wfc.exe	The Workflow Command-line Compiler tool; Windows Software Development Kit (SDK).	T1127: Trusted Developer Utilities Proxy Execution
+19	whoami.exe	Displays logged on user information	T1033: System Owner/User Discovery
+	winget.exe	Windows Package Manager tool	T1105: Ingress Tool Transfer
+35	wininit.exe	runs the Windows Initialization process	
+44	winlogon.exe	runs the Windows Logon, a Windows authentication utility	T1547.004: Winlogon Helper DLL
+	winrm.vbs	Script used for manage Windows RM settings	T1216: System Script Proxy Execution
+41	winword.exe	Microsoft Word text processing software	T1105: Ingress Tool Transfer
+	wlrmdr.exe	Windows Logon Reminder executable	T1202: Indirect Command Execution
+61	wmic.exe	 Command-line interface for Windows Management Instrumentation (WMI)	T1218: System Binary Proxy Execution
+27	wmiprvse.exe	Windows Management Instrumentation Provider Service that performs essential error reporting and monitoring functions	T1021.006: Windows Remote Management
+5	workfolders.exe	role service for file servers running Windows Server that provides a consistent way for users to access their work files	T1218: System Binary Proxy Execution
+44	wscript.exe	Windows Script Host; executes VBScript files	T1564.004: NTFS File Attributes
+	wsl.exe	Windows subsystem for Linux executable	T1202: Indirect Command Execution
+12	wsmprovhost.exe	 proxy process executed remotely through PowerShell when using Windows Remote Management (WinRM)	
+3	wsreset.exe	Used to reset Windows Store settings according to its manifest file	T1548.002: Bypass User Account Control
+	wt.exe	Windows Terminal	T1202: Indirect Command Execution
+5	wuauclt.exe	Windows Update Client	T1218: System Binary Proxy Execution
+22	xwizard.exe	Extensible Wizards Host Process	T1218: System Binary Proxy Execution
+	zipfldr.dll	Compressed Folder library	T1218.011: Rundll32
