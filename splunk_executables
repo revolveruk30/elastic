@@ -1,861 +1,182 @@
 count    | line
 -----------------------------------------------------
-      74 | rundll32.exe
-      65 | powershell.exe
-      58 | cmd.exe
-      43 | net.exe
-      40 | schtasks.exe
-      40 | wmic.exe
-      36 | sc.exe
-      35 | explorer.exe
-      33 | cscript.exe
-      33 | mshta.exe
-      33 | wscript.exe
-      32 | wermgr.exe
-      28 | lsass.exe
-      27 | hh.exe
-      24 | svchost.exe
-      24 | winword.exe
-      23 | net1.exe
-      22 | spoolsv.exe
-      21 | certutil.exe
-      21 | wmiprvse.exe
-      20 | msiexec.exe
-      19 | excel.exe
-      18 | reg.exe
-      17 | powerpnt.exe
-      16 | bitsadmin.exe
-      16 | mmc.exe
-      16 | msbuild.exe
-      16 | msdt.exe
-      16 | regasm.exe
-      15 | icacls.exe
-      15 | odbcconf.exe
-      15 | regsvcs.exe
-      15 | rundll32.exe
-      15 | winlogon.exe
-      14 | microsoft.workflow.compiler.exe
-      14 | mspub.exe
-      14 | powershell.exe
-      14 | visio.exe
-      13 | cacls.exe
-      13 | control.exe
-      13 | pwsh.exe
-      13 | searchprotocolhost.exe
-      13 | services.exe
-      13 | wevtutil.exe
-      12 | explorer.exe
-      12 | regasm|regsvcs.exe
-      12 | regsvr32.exe
-      11 | dsquery.exe
-      11 | gpupdate.exe
-      11 | installutil.exe
-      11 | nslookup.exe
-      11 | regasm.exe
-      10 | bcdedit.exe
-      10 | calc.exe
-      10 | netsh.exe
-      10 | notepad.exe
-      10 | pcalua.exe
-      10 | regsvcs.exe
-      10 | regsvr32.exe
-       9 | 7z.exe
-       9 | attrib.exe
-       9 | msbuild.exe
-       9 | rasautou.exe
-       9 | slui.exe
-       9 | wsmprovhost.exe
-       9 | xcacls.exe
-       8 | cmd.exe
-       8 | dllhost.exe
-       8 | msbuild.exe
-       8 | msra.exe
-       8 | shutdown.exe
-       8 | vssadmin.exe
-       7 | at.exe
-       7 | chrome.exe
-       7 | installutil.exe
-       7 | odbcconf.exe
-       7 | powershell_ise.exe
-       7 | rasautou.exe
-       7 | rclone.exe
-       7 | winword.exe
-       6 | at.exe
-       6 | atbroker.exe
-       6 | csc.exe
-       6 | dllhost.exe
-       6 | dllhost.exe
-       6 | dxdiag.exe
-       6 | excel.exe
-       6 | firefox.exe
-       6 | forfiles.exe
-       6 | fsutil.exe
-       6 | iscsicpl.exe
-       6 | mavinject.exe
-       6 | mavinject.exe
-       6 | microsoft.workflow.compiler.exe
-       6 | mshta.exe
-       6 | nltest.exe
-       6 | outlook.exe
-       6 | regedit.exe
-       6 | schtasks.exe
-       6 | taskkill.exe
-       6 | whoami.exe
-       6 | xwizard.exe
-       5 | advancedrun.exe
-       5 | arp.exe
-       5 | bash.exe
-       5 | bitsadmin.exe
-       5 | certoc.exe
-       5 | cipher.exe
-       5 | cmstp.exe
-       5 | diskshadow.exe
-       5 | dism.exe
-       5 | dnscmd.exe
-       5 | extexport.exe
-       5 | fodhelper.exe
-       5 | forfiles.exe
-       5 | ftp.exe
-       5 | gpscript.exe
-       5 | hh.exe
-       5 | ie4uinit.exe
-       5 | ieexec.exe
-       5 | infdefaultinstall.exe
-       5 | mmc.exe
-       5 | msconfig.exe
-       5 | msdt.exe
-       5 | msiexec.exe
-       5 | netsh.exe
-       5 | netstat.exe
-       5 | offlinescannershell.exe
-       5 | pcalua.exe
-       5 | pcwrun.exe
-       5 | pnputil.exe
-       5 | presentationhost.exe
-       5 | procdump.exe
-       5 | register-cimprovider.exe
-       5 | runonce.exe
-       5 | runscripthelper.exe
-       5 | scriptrunner.exe
-       5 | setspn.exe
-       5 | settingsynchost.exe
-       5 | stordiag.exe
-       5 | syncappvpublishingserver.exe
-       5 | taskhost.exe
-       5 | ttdinject.exe
-       5 | tttracer.exe
-       5 | verclsid.exe
-       5 | wab.exe
-       5 | wbadmin.exe
-       5 | wermgr.exe
-       5 | winhlp32.exe
-       5 | wmic.exe
-       5 | workfolders.exe
-       5 | wuauclt.exe
-       5 | xwizard.exe
-       4 | bitsadmin.exe
-       4 | certutil.exe
-       4 | colorcpl.exe
-       4 | esentutl.exe
-       4 | iexplore.exe
-       4 | ipconfig.exe
-       4 | java.exe
-       4 | mobsync.exe
-       4 | ntdsutil.exe
-       4 | query.exe
-       4 | qwinsta.exe
-       4 | scrcons.exe
-       4 | sdbinst.exe
-       4 | sdclt.exe
-       4 | sqlps.exe
-       4 | sqltoolsps.exe
-       4 | systeminfo.exe
-       4 | takeown.exe
-       4 | taskmgr.exe
-       4 | userinit.exe
-       4 | w32tm.exe
-       4 | werfault.exe
-       4 | winrs.exe
-       4 | wordpad.exe
-       4 | wordview.exe
-       4 | wsmprovhost.exe
-       3 | ab.exe
-       3 | atbroker.exe
-       3 | bash.exe
-       3 | cmdkey.exe
-       3 | cmstp.exe
-       3 | curl.exe
-       3 | dcinst.exe
-       3 | dfsvc.exe
-       3 | diskshadow.exe
-       3 | eventvwr.exe
-       3 | expand.exe
-       3 | extrac32.exe
-       3 | findstr.exe
-       3 | ftp.exe
-       3 | gpscript.exe
-       3 | hh.exe
-       3 | ie4uinit.exe
-       3 | infdefaultinstall.exe
-       3 | installutil.exe
-       3 | javaw.exe
-       3 | makecab.exe
-       3 | mimikatz.exe
-       3 | mofcomp.exe
-       3 | msconfig.exe
-       3 | msmpeng.exe
-       3 | mstsc.exe
-       3 | onedrivesetup.exe
-       3 | pcwrun.exe
-       3 | ping.exe
-       3 | presentationhost.exe
-       3 | print.exe
-       3 | procdump64.exe
-       3 | psr.exe
-       3 | rdpclip.exe
-       3 | rdpwinst.exe
-       3 | regini.exe
-       3 | register-cimprovider.exe
-       3 | regsv32.exe
-       3 | replace.exe
-       3 | route.exe
-       3 | rpcping.exe
-       3 | runonce.exe
-       3 | scriptrunner.exe
-       3 | sharphound.exe
-       3 | smss.exe
-       3 | taskhostex.exe
-       3 | verclsid.exe
-       3 | w3wp.exe
-       3 | wininit.exe
-       3 | winlogon.exe
-       3 | winrar.exe
-       3 | wsreset.exe
-       3 | zoom.exe
-       2 | 400619a.exe
-       2 | 7za.exe
-       2 | acu.exe
-       2 | adplus.exe
-       2 | advancedrun.exe
-       2 | aspnet_compiler.exe
-       2 | attrib.exe
-       2 | certreq.exe
-       2 | certutil.exe
-       2 | cmdl32.exe
-       2 | cscript.exe
-       2 | csrss.exe
-       2 | datasvcutil.exe
-       2 | dcrypt.exe
-       2 | desktopimgdownldr.exe
-       2 | devenv.exe
-       2 | diantz.exe
-       2 | diskshadow.exe
-       2 | dnscmd.exe
-       2 | document.activeview.exe
-       2 | dsquery.exe
-       2 | excel.exe
-       2 | extexport.exe
-       2 | filehistory.exe
-       2 | finger.exe
-       2 | fltmc.exe
-       2 | fltmc.exe
-       2 | gfxdownloadwrapper.exe
-       2 | ieexec.exe
-       2 | ilasm.exe
-       2 | incmd.exe
-       2 | jsc.exe
-       2 | microsoftedgecp.exe
-       2 | mofcomp.exe
-       2 | msexchangemailboxreplication.exe
-       2 | ngrok.exe
-       2 | ntdsutil.exe
-       2 | ntoskrnl.exe
-       2 | osk.exe
-       2 | pnputil.exe
-       2 | powerpnt.exe
-       2 | powershell.exe
-       2 | psexec.exe
-       2 | runas.exe
-       2 | runscripthelper.exe
-       2 | sc.exe
-       2 | scrnsave.exe
-       2 | sdelete.exe
-       2 | sethc.exe
-       2 | settingsynchost.exe
-       2 | sh.exe
-       2 | syncappvpublishingserver.exe
-       2 | telegram.exe
-       2 | tttracer.exe
-       2 | tzsync.exe
-       2 | umworkerprocess.exe
-       2 | utilman.exe
-       2 | vbc.exe
-       2 | wab.exe
-       2 | werfault.exe
-       2 | win32calc.exe
-       2 | winword.exe
-       2 | wlrmdr.exe
-       2 | wmiprsve.exe
-       2 | wmiprvse.exe
-       2 | wmiprvse.exe
-       2 | workfolders.exe
-       2 | wscript.exe
-       2 | wsreset.exe
-       2 | wuauclt.exe
-       1 | .htm.exe
-       1 | .html.exe
-       1 | .pdf.exe
-       1 | 29.exe
-       1 | acccheckconsole.exe
-       1 | acccheckconsole.exe
-       1 | acrobat.exe
-       1 | acrord32.exe
-       1 | adaptertroubleshooter.exe
-       1 | addinprocess.exe
-       1 | addinprocess32.exe
-       1 | addinutil.exe
-       1 | adfind.exe
-       1 | adfind.exe
-       1 | agentexecutor.exe
-       1 | agentexecutor.exe
-       1 | aitagent.exe
-       1 | aitstatic.exe
-       1 | alg.exe
-       1 | appidcertstorecheck.exe
-       1 | appidpolicyconverter.exe
-       1 | appinstaller.exe
-       1 | appinstaller.exe
-       1 | applicationframehost.exe
-       1 | appvlp.exe
-       1 | appvlp.exe
-       1 | appvstreamingux.exe
-       1 | aspnet_compiler.exe
-       1 | aspnet_regbrowsers.exe
-       1 | aspnet_regsql.exe
-       1 | atbroker.exe
-       1 | audiodg.exe
-       1 | auditpol.exe
-       1 | authhost.exe
-       1 | autochk.exe
-       1 | autoconv.exe
-       1 | autofmt.exe
-       1 | autoworkplace.exe
-       1 | axinstui.exe
-       1 | baaupdate.exe
-       1 | backgroundtaskhost.exe
-       1 | backgroundtransferhost.exe
-       1 | bcastdvr.exe
-       1 | bcdboot.exe
-       1 | bdechangepin.exe
-       1 | bdehdcfg.exe
-       1 | bdeuisrv.exe
-       1 | bdeunlock.exe
-       1 | bdeunlockwizard.exe
-       1 | bitlockerdeviceencryption.exe
-       1 | bitlockerwizard.exe
-       1 | bitlockerwizardelev.exe
-       1 | bootcfg.exe
-       1 | bootim.exe
-       1 | bootsect.exe
-       1 | bridgeunattend.exe
-       1 | browser_broker.exe
-       1 | bthudtask.exe
-       1 | bytecodegenerator.exe
-       1 | camerasettingsuihost.exe
-       1 | caspol.exe
-       1 | castsrv.exe
-       1 | cdpreference.exe
-       1 | certenrollctrl.exe
-       1 | certoc.exe
-       1 | change.exe
-       1 | changepk.exe
-       1 | charmap.exe
-       1 | chcp.exe
-       1 | checknetisolation.exe
-       1 | chglogon.exe
-       1 | chgport.exe
-       1 | chgusr.exe
-       1 | chkdsk.exe
-       1 | chkntfs.exe
-       1 | choice.exe
-       1 | cleanmgr.exe
-       1 | cliconfg.exe
-       1 | clip.exe
-       1 | clipup.exe
-       1 | cloudexperiencehostbroker.exe
-       1 | cloudnotifications.exe
-       1 | cloudstoragewizard.exe
-       1 | cmmgr32.exe
-       1 | cmmon32.exe
-       1 | cofire.exe
-       1 | comp.exe
-       1 | compact.exe
-       1 | compattelrunner.exe
-       1 | compmgmtlauncher.exe
-       1 | computerdefaults.exe
-       1 | comsvcconfig.exe
-       1 | configsecuritypolicy.exe
-       1 | conhost.exe
-       1 | consent.exe
-       1 | control.exe
-       1 | convert.exe
-       1 | credentialuibroker.exe
-       1 | credwiz.exe
-       1 | ctfmon.exe
-       1 | cttune.exe
-       1 | cttunesvr.exe
-       1 | curl.exe
-       1 | dashost.exe
-       1 | dataexchangehost.exe
-       1 | dccw.exe
-       1 | dcomcnfg.exe
-       1 | ddodiag.exe
-       1 | defrag.exe
-       1 | devicedisplayobjectprovider.exe
-       1 | deviceeject.exe
-       1 | deviceenroller.exe
-       1 | devicepairingwizard.exe
-       1 | deviceproperties.exe
-       1 | dfdwiz.exe
-       1 | dfrgui.exe
-       1 | dfsradmin.exe
-       1 | dialer.exe
-       1 | dinotify.exe
-       1 | discord.exe
-       1 | diskpart.exe
-       1 | diskperf.exe
-       1 | diskraid.exe
-       1 | disksnapshot.exe
-       1 | dispdiag.exe
-       1 | displayswitch.exe
-       1 | displayswitch.exe
-       1 | djoin.exe
-       1 | dllhst3g.exe
-       1 | dmcertinst.exe
-       1 | dmcfghost.exe
-       1 | dmclient.exe
-       1 | dmnotificationbroker.exe
-       1 | dmomacpmo.exe
-       1 | dnscacheugc.exe
-       1 | doskey.exe
-       1 | dpapimig.exe
-       1 | dpiscaling.exe
-       1 | dpnsvr.exe
-       1 | driverquery.exe
-       1 | drvcfg.exe
-       1 | drvinst.exe
-       1 | dsac.exe
-       1 | dsmusertask.exe
-       1 | dsquery.exe
-       1 | dsregcmd.exe
-       1 | dstokenclean.exe
-       1 | dvdplay.exe
-       1 | dvdupgrd.exe
-       1 | dwm.exe
-       1 | dwwin.exe
-       1 | dxpserver.exe
-       1 | eap3host.exe
-       1 | easeofaccessdialog.exe
-       1 | easinvoker.exe
-       1 | easpoliciesbrokerhost.exe
-       1 | edmgen.exe
-       1 | edpcleanup.exe
-       1 | efsui.exe
-       1 | ehstorauthn.exe
-       1 | embeddedapplauncher.exe
-       1 | eosnotify.exe
-       1 | eudcedit.exe
-       1 | eventcreate.exe
-       1 | fc.exe
-       1 | fhmanagew.exe
-       1 | find.exe
-       1 | fixmapi.exe
-       1 | fodhelper.exe
-       1 | fondue.exe
-       1 | fontdrvhost.exe
-       1 | fontview.exe
-       1 | freemarker.template.utility.exe
-       1 | fsavailux.exe
-       1 | fsquirt.exe
-       1 | fvenotify.exe
-       1 | fveprompt.exe
-       1 | fxscover.exe
-       1 | fxssvc.exe
-       1 | fxsunatd.exe
-       1 | gamepanel.exe
-       1 | genvalobj.exe
-       1 | getmac.exe
-       1 | gettingstarted.exe
-       1 | gpresult.exe
-       1 | grpconv.exe
-       1 | hdwwiz.exe
-       1 | help.exe
-       1 | hostname.exe
-       1 | hwrcomp.exe
-       1 | hwrreg.exe
-       1 | icardagt.exe
-       1 | icsentitlementhost.exe
-       1 | icsunattend.exe
-       1 | iediagcmd.exe
-       1 | ieetwcollector.exe
-       1 | ieunatt.exe
-       1 | iexpress.exe
-       1 | iisual.exe
-       1 | imewdbld.exe
-       1 | immersivetpmvscmgrsvr.exe
-       1 | incmstp.exe
-       1 | infirefox.exe
-       1 | installagent.exe
-       1 | inuserinit.exe
-       1 | irftp.exe
-       1 | iscsicli.exe
-       1 | isoburn.exe
-       1 | java.lang.runtime@getruntime.exe
-       1 | javajava.exe
-       1 | klist.exe
-       1 | klist.exe
-       1 | ksetup.exe
-       1 | ksh.exe
-       1 | ktmutil.exe
-       1 | label.exe
-       1 | languagecomponentsinstallercomhandler.exe
-       1 | launchtm.exe
-       1 | launchwinapp.exe
-       1 | lbfoadmin.exe
-       1 | legacynetuxhost.exe
-       1 | licensemanagershellext.exe
-       1 | licensingdiag.exe
-       1 | licensingui.exe
-       1 | locationnotifications.exe
-       1 | locationnotificationwindows.exe
-       1 | locator.exe
-       1 | lockapphost.exe
-       1 | lockscreencontentserver.exe
-       1 | lodctr.exe
-       1 | logagent.exe
-       1 | logman.exe
-       1 | logoff.exe
-       1 | logonui.exe
-       1 | logonui.exe
-       1 | lpkinstall.exe
-       1 | lpksetup.exe
-       1 | lpremove.exe
-       1 | lsaiso.exe
-       1 | lsass.exe
-       1 | lsm.exe
-       1 | lua:os.exe
-       1 | magnify.exe
-       1 | magnify.exe
-       1 | manage-bde.exe
-       1 | mbaeparsertask.exe
-       1 | mblctr.exe
-       1 | mcbuilder.exe
-       1 | mctadmin.exe
-       1 | mdeserver.exe
-       1 | mdmagent.exe
-       1 | mdmappinstaller.exe
-       1 | mdres.exe
-       1 | mdsched.exe
-       1 | mfpmp.exe
-       1 | microsoft.activedirectory.webservices.exe
-       1 | microsoft.uev.synccontroller.exe
-       1 | microsoft.workflow.compiler.exe
-       1 | migautoplay.exe
-       1 | mmc.exe
-       1 | mountvol.exe
-       1 | mpcmdrun.exe
-       1 | mpnotify.exe
-       1 | mpsigstub.exe
-       1 | mrinfo.exe
-       1 | mrt.exe
-       1 | mschedexe.exe
-       1 | msdtc.exe
-       1 | msedge.exe
-       1 | msfeedssync.exe
-       1 | msg.exe
-       1 | mshta.exe
-       1 | msinfo32.exe
-       1 | mspaint.exe
-       1 | msra.exe
-       1 | msspellcheckinghost.exe
-       1 | mtedit.exe
-       1 | mtstocom.exe
-       1 | muiunattend.exe
-       1 | multidigimon.exe
-       1 | musnotification.exe
-       1 | musnotificationux.exe
-       1 | napstat.exe
-       1 | narrator.exe
-       1 | narrator.exe
-       1 | nbtstat.exe
-       1 | ndadmin.exe
-       1 | netbtugc.exe
-       1 | netcfg.exe
-       1 | netcfgnotifyobjecthost.exe
-       1 | netevtfwdr.exe
-       1 | netiougc.exe
-       1 | netplwiz.exe
-       1 | netproj.exe
-       1 | networkuxbroker.exe
-       1 | newdev.exe
-       1 | ngentask.exe
-       1 | nltest.exe
-       1 | nslookup.exe
-       1 | ntprint.exe
-       1 | ocsetup.exe
-       1 | odbcad32.exe
-       1 | offlinescannershell.exe
-       1 | omadmclient.exe
-       1 | omadmprc.exe
-       1 | openfiles.exe
-       1 | openwith.exe
-       1 | opera.exe
-       1 | optionalfeatures.exe
-       1 | p2phost.exe
-       1 | passwordonwakesettingflyout.exe
-       1 | pathping.exe
-       1 | pcaui.exe
-       1 | pcawrk.exe
-       1 | perfmon.exe
-       1 | phoneactivate.exe
-       1 | pickerhost.exe
-       1 | pkgmgr.exe
-       1 | pktmon.exe
-       1 | plasrv.exe
-       1 | plink.exe
-       1 | pnpunattend.exe
-       1 | poqexec.exe
-       1 | powercfg.exe
-       1 | powerhsell.exe
-       1 | powershellpwsh.exe
-       1 | powershellwmic.exe
-       1 | presentationsettings.exe
-       1 | prevhost.exe
-       1 | printbrm.exe
-       1 | printbrmui.exe
-       1 | printdialoghost.exe
-       1 | printdialoghost3d.exe
-       1 | printfilterpipelinesvc.exe
-       1 | printisolationhost.exe
-       1 | printui.exe
-       1 | proquota.exe
-       1 | provtool.exe
-       1 | proximityuxhost.exe
-       1 | pservice_ppd.exe
-       1 | pservicecontrol.exe
-       1 | psexec.exe
-       1 | psexec.exe
-       1 | psexec64.exe
-       1 | pwlauncher.exe
-       1 | python.exe
-       1 | qappsrv.exe
-       1 | qprocess.exe
-       1 | quser.exe
-       1 | rar.exe
-       1 | rasdial.exe
-       1 | raserver.exe
-       1 | rasphone.exe
-       1 | rdpinput.exe
-       1 | rdpsa.exe
-       1 | rdpsaproxy.exe
-       1 | rdpsauachelper.exe
-       1 | rdpwinst.exe
-       1 | rdrleakdiag.exe
-       1 | rdspnf.exe
-       1 | reagentc.exe
-       1 | recdisc.exe
-       1 | recover.exe
-       1 | recoverydrive.exe
-       1 | regedt32.exe
-       1 | registeriepkeys.exe
-       1 | rekeywiz.exe
-       1 | relog.exe
-       1 | relpost.exe
-       1 | remoteposworker.exe
-       1 | repair-bde.exe
-       1 | reset.exe
-       1 | resmon.exe
-       1 | rmactivate_isv.exe
-       1 | rmactivate_ssp_isv.exe
-       1 | rmactivate_ssp.exe
-       1 | rmactivate.exe
-       1 | rmclient.exe
-       1 | rmttpmvscmgrsvr.exe
-       1 | rrinstaller.exe
-       1 | rstrui.exe
-       1 | runlegacycplelevated.exe
-       1 | runtime.exe
-       1 | runtimebroker.exe
-       1 | rwinsta.exe
-       1 | sbunattend.exe
-       1 | scp.exe
-       1 | sdchange.exe
-       1 | sdiagnhost.exe
-       1 | sdnbr.exe
-       1 | searchfilterhost.exe
-       1 | searchindexer.exe
-       1 | secedit.exe
-       1 | secinit.exe
-       1 | secureassessmentbrowser.exe
-       1 | sensordataservice.exe
-       1 | servermanager.exe
-       1 | services.exe
-       1 | sessionmsg.exe
-       1 | setieinstalleddate.exe
-       1 | setupcl.exe
-       1 | setupugc.exe
-       1 | setx.exe
-       1 | sfc.exe
-       1 | shadow.exe
-       1 | sharphound.exe
-       1 | shrpubw.exe
-       1 | sigverif.exe
-       1 | sihclient.exe
-       1 | sihost.exe
-       1 | slidetoshutdown.exe
-       1 | smartscreensettings.exe
-       1 | smsvchost.exe
-       1 | sndvol.exe
-       1 | snippingtool.exe
-       1 | snmptrap.exe
-       1 | solarwinds.businesslayerhost.exe
-       1 | sort.exe
-       1 | soundrecorder.exe
-       1 | spaceagent.exe
-       1 | spinstall.exe
-       1 | spoolsv.exe
-       1 | sppextcomobj.exe
-       1 | sppsvc.exe
-       1 | spreview.exe
-       1 | srdelayed.exe
-       1 | srtasks.exe
-       1 | stikynot.exe
-       1 | stordiag.exe
-       1 | subst.exe
-       1 | svchost.exe
-       1 | sxstrace.exe
-       1 | synchost.exe
-       1 | syskey.exe
-       1 | sysreseterr.exe
-       1 | systempropertiesadvanced.exe
-       1 | systempropertiescomputername.exe
-       1 | systempropertiesdataexecutionprevention.exe
-       1 | systempropertieshardware.exe
-       1 | systempropertiesperformance.exe
-       1 | systempropertiesprotection.exe
-       1 | systempropertiesremote.exe
-       1 | systemreset.exe
-       1 | systemsettingsadminflows.exe
-       1 | systemsettingsbroker.exe
-       1 | systemsettingsremovedevice.exe
-       1 | systray.exe
-       1 | tabcal.exe
-       1 | tapiunattend.exe
-       1 | taskeng.exe
-       1 | taskhostw.exe
-       1 | tasklist.exe
-       1 | taskmgr.exe
-       1 | tcmsetup.exe
-       1 | tcpsvcs.exe
-       1 | thumbnailextractionhost.exe
-       1 | thunderbird.exe
-       1 | timeout.exe
-       1 | tokenbrokercookies.exe
-       1 | tpminit.exe
-       1 | tpmvscmgr.exe
-       1 | tpmvscmgrsvr.exe
-       1 | tracerpt.exe
-       1 | tracert.exe
-       1 | tscon.exe
-       1 | tsdiscon.exe
-       1 | tskill.exe
-       1 | tstheme.exe
-       1 | tswbprxy.exe
-       1 | tswpfwrp.exe
-       1 | ttdinject.exe
-       1 | txt.exe
-       1 | typeperf.exe
-       1 | tzutil.exe
-       1 | ucsvc.exe
-       1 | uevagentpolicygenerator.exe
-       1 | uevappmonitor.exe
-       1 | uevtemplatebaselinegenerator.exe
-       1 | uevtemplateconfigitemgenerator.exe
-       1 | ui0detect.exe
-       1 | umservice.exe
-       1 | umservice.exe
-       1 | unlodctr.exe
-       1 | unregmp2.exe
-       1 | unsecapp.exe
-       1 | upgraderesultsui.exe
-       1 | upnpcont.exe
-       1 | useraccountbroker.exe
-       1 | useraccountcontrolsettings.exe
-       1 | usoclient.exe
-       1 | vaultcmd.exe
-       1 | vaultsysui.exe
-       1 | vds.exe
-       1 | vdsldr.exe
-       1 | verifier.exe
-       1 | verifiergui.exe
-       1 | vmicsvc.exe
-       1 | vssvc.exe
-       1 | w3wp.exe
-       1 | waitfor.exe
-       1 | wallpaperhost.exe
-       1 | wbengine.exe
-       1 | webbrowserpassview.exe
-       1 | webcache.exe
-       1 | wecutil.exe
-       1 | werfaultsecure.exe
-       1 | werfaultsecure.exe
-       1 | wevtutil.exe
-       1 | wevtutil.exe
-       1 | wextract.exe
-       1 | wfs.exe
-       1 | where.exe
-       1 | wiaacmgr.exe
-       1 | wiawow64.exe
-       1 | wifitask.exe
-       1 | wimserv.exe
-       1 | windows.media.backgroundplayback.exe
-       1 | windowsactiondialog.exe
-       1 | windowsanytimeupgrade.exe
-       1 | windowsanytimeupgraderesults.exe
-       1 | windowsanytimeupgradeui.exe
-       1 | windowsupdateelevatedinstaller.exe
-       1 | winhlp32.exe
-       1 | winhlp32.exe
-       1 | winload.exe
-       1 | winrar.exe
-       1 | winresume.exe
-       1 | winrshost.exe
-       1 | winsat.exe
-       1 | winver.exe
-       1 | wisptis.exe
-       1 | wkspbroker.exe
-       1 | wksprt.exe
-       1 | wlanext.exe
-       1 | wmiapsrv.exe
-       1 | wmiprsve.exe
-       1 | wmpdmc.exe
-       1 | wowreg32.exe
-       1 | wpcmon.exe
-       1 | wpdshextautoplay.exe
-       1 | wpnpinst.exe
-       1 | wpr.exe
-       1 | write.exe
-       1 | wsatconfig.exe
-       1 | wscollect.exe
-       1 | wsmanhttpconfig.exe
-       1 | wsqmcons.exe
-       1 | wuapihost.exe
-       1 | wuapp.exe
-       1 | wudfhost.exe
-       1 | wusa.exe
-       1 | wwahost.exe
-       1 | xbox.tcui.exe
-       1 | xcacls.exe
-       1 | xcopy.exe
-       1 | xpsrchvw.exe
-       1 | zsh.exe
+rundll32.exe	89
+powershell.exe	79
+cmd.exe	66
+explorer.exe	47
+schtasks.exe	46
+wmic.exe	45
+net.exe	43
+mshta.exe	39
+wermgr.exe	37
+sc.exe	36
+hh.exe	35
+cscript.exe	33
+msbuild.exe	33
+wscript.exe	33
+winword.exe	32
+lsass.exe	28
+regasm.exe	27
+bitsadmin.exe	25
+certutil.exe	25
+excel.exe	25
+msiexec.exe	25
+regsvcs.exe	25
+svchost.exe	24
+net1.exe	23
+regsvr32.exe	22
+spoolsv.exe	22
+installutil.exe	21
+mmc.exe	21
+msdt.exe	21
+odbcconf.exe	21
+wmiprvse.exe	21
+dllhost.exe	20
+microsoft.workflow.compiler.exe	20
+reg.exe	18
+winlogon.exe	18
+powerpnt.exe	17
+rasautou.exe	16
+icacls.exe	15
+netsh.exe	15
+pcalua.exe	15
+mspub.exe	14
+visio.exe	14
+at.exe	13
+cacls.exe	13
+control.exe	13
+pwsh.exe	13
+searchprotocolhost.exe	13
+services.exe	13
+wevtutil.exe	13
+mavinject.exe	12
+regasm|regsvcs.exe	12
+wsmprovhost.exe	12
+dsquery.exe	11
+forfiles.exe	11
+gpupdate.exe	11
+nslookup.exe	11
+xwizard.exe	11
+bcdedit.exe	10
+calc.exe	10
+notepad.exe	10
+7z.exe	9
+atbroker.exe	9
+attrib.exe	9
+slui.exe	9
+xcacls.exe	9
+bash.exe	8
+cmstp.exe	8
+diskshadow.exe	8
+ftp.exe	8
+gpscript.exe	8
+ie4uinit.exe	8
+infdefaultinstall.exe	8
+msconfig.exe	8
+msra.exe	8
+pcwrun.exe	8
+presentationhost.exe	8
+register-cimprovider.exe	8
+runonce.exe	8
+scriptrunner.exe	8
+shutdown.exe	8
+verclsid.exe	8
+vssadmin.exe	8
+chrome.exe	7
+powershell_ise.exe	7
+rclone.exe	7
+csc.exe	6
+dxdiag.exe	6
+firefox.exe	6
+fsutil.exe	6
+iscsicpl.exe	6
+nltest.exe	6
+outlook.exe	6
+regedit.exe	6
+taskkill.exe	6
+whoami.exe	6
+advancedrun.exe	5
+arp.exe	5
+certoc.exe	5
+cipher.exe	5
+dism.exe	5
+dnscmd.exe	5
+extexport.exe	5
+fodhelper.exe	5
+ieexec.exe	5
+netstat.exe	5
+offlinescannershell.exe	5
+pnputil.exe	5
+procdump.exe	5
+runscripthelper.exe	5
+setspn.exe	5
+settingsynchost.exe	5
+stordiag.exe	5
+syncappvpublishingserver.exe	5
+taskhost.exe	5
+ttdinject.exe	5
+tttracer.exe	5
+wab.exe	5
+wbadmin.exe	5
+winhlp32.exe	5
+workfolders.exe	5
+wuauclt.exe	5
+colorcpl.exe	4
+esentutl.exe	4
+iexplore.exe	4
+ipconfig.exe	4
+java.exe	4
+mobsync.exe	4
+ntdsutil.exe	4
+query.exe	4
+qwinsta.exe	4
+scrcons.exe	4
+sdbinst.exe	4
+sdclt.exe	4
+sqlps.exe	4
+sqltoolsps.exe	4
+systeminfo.exe	4
+takeown.exe	4
+taskmgr.exe	4
+userinit.exe	4
+w32tm.exe	4
+werfault.exe	4
+winrs.exe	4
+wordpad.exe	4
+wordview.exe	4
+ab.exe	3
+cmdkey.exe	3
+curl.exe	3
+dcinst.exe	3
+dfsvc.exe	3
+eventvwr.exe	3
+expand.exe	3
+extrac32.exe	3
+findstr.exe	3
+javaw.exe	3
+makecab.exe	3
+mimikatz.exe	3
+mofcomp.exe	3
+msmpeng.exe	3
+mstsc.exe	3
+onedrivesetup.exe	3
+ping.exe	3
+print.exe	3
+procdump64.exe	3
+psr.exe	3
+rdpclip.exe	3
+rdpwinst.exe	3
+regini.exe	3
+regsv32.exe	3
+replace.exe	3
+route.exe	3
+rpcping.exe	3
+sharphound.exe	3
+smss.exe	3
+taskhostex.exe	3
+w3wp.exe	3
+wininit.exe	3
+winrar.exe	3
+wsreset.exe	3
+zoom.exe	3
+
