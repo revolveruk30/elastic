@@ -1,105 +1,127 @@
 COUNT    | EXECUTABLE
 -----------------------------------------------------
-     250 | powershell.exe, pwsh.exe	Configuration management and task automation framework that consists of a command line shell and a related scripting language
-     122 | cmd.exe                      Command line prompt utility
-     103 | net.exe, net1.exe		Network Control Utility
-     102 | wscript.exe			Windows Script Host; executes VBScript files
-      99 | rundll32.exe			Loads and runs 32-bit dynamic-link libraries (DLLs).
-      89 | svchost.exe			Generic host process for services
-      93 | regsvr32.exe			Command-line utility to register and unregister OLE controls in the Windows Registry
-      86 | cscript.exe			Command-line version of the Windows Script Host 
-      83 | mshta.exe			Microsoft HTML Application Host
-      71 | msiexec.exe			Windows Installer installs, maintains and removes software
-      66 | wmic.exe                     Command-line interface for Windows Management Instrumentation (WMI)
-      58 | services.exe			Service Control Manager which handles system services.
-      54 | msbuild.exe			Microsoft Build Engine is a platform for building applications.
-      52 | explorer.exe			Manages the Graphical Shell component of the Windows Operating System, including the file manager and desktop
-      45 | installutil.exe		Command-line utility that allows you to install and uninstall server resources
-      44 | werfault.exe			Windows Error Reporting process
-      43 | regasm.exe			Assembly Registration tool adds entries to the registry
-      41 | smss.exe                     Manages the startup of all user sessions in Windows
-      39 | winword.exe			Microsoft Word text processing software
-      38 | cmstp.exe			Microsoft Connection Manager Profile Installer
-      38 | msxsl.exe			Command line utility to perform transformations on XML files. 
-      37 | regsvcs.exe			Provides a runtime environment and code library for application development, testing, and execution
-      37 | sc.exe                       Service Configuration Tool allows administrative users to establish a program as a Windows service
-      35 | ieexec.exe			Microsoft IE Execute shell
-      35 | wininit.exe			Windows Initialization application
-      34 | certutil.exe			Displays certification authority (CA) configuration information; used to configure Certificate Services
-      34 | winlogon.exe			Windows Logon, the Windows authentication utility
-      33 | workflow.compiler.exe	Permits the execution of arbitrary, unsigned code
-      32 | excel.exe			Microsoft Office spreadsheet application
-      30 | netsh.exe			Network shell command-line
-      29 | wermgr.exe			Windows Error Reporting Queue Manager
-      29 | powerpnt.exe			Microsoft Office slide-shows presentation application
-      28 | schtasks.exe			Creates, deletes, queries, changes, runs, and ends scheduled tasks
-      31 | wmiprvse.exe			Windows Management Instrumentation Provider Service that performs essential error reporting and monitoring functions
-      28 | xwizard.exe			Extensible Wizards Host Process
-      26 | bginfo.exe			Sysinternals BGInfo, a tool that let users display system information on the desktop background
-      26 | cdb.exe			Debugging tool included with Windows Debugging Tools.
-      26 | csi.exe			Command-line interface for running unsigned C# scripts
-      26 | dnx.exe			.Net Execution environment file included with .Net.
-      26 | fsi.exe			64-bit FSharp (F#) Interpreter included with Visual Studio
-      26 | iexpress.exe			Used to create self-extracting packages from a set of files
-      26 | msaccess.exe			Microsoft Access Database Engine
-      26 | mspub.exe			Microsoft Publisher
-      26 | odbcconf.exe			Command-line tool that allows you to configure ODBC drivers and data source names
-      26 | rcsi.exe			Non-Interactive command line interface included with Visual Studio.
-      26 | w3wp.exe			An Internet Information Services (IIS) worker process which runs web applications; responsible for handling web requests 
-      26 | iexplore.exe			Microsoft Internet Explorer
-      25 | whoami.exe			Displays logged on user information
-      24 | atbroker.exe			Helper binary for Assistive Technology (AT)
-      24 | outlook.exe			Microsoft Outlook
-      24 | lsass.exe			Local Security Authentication Server; verifies the validity of user logons
-      26 | dllhost.exe			A host for DLL files and binary executables.
-      23 | spoolsv.exe			Runs the Windows OS print spooler service.
-      22 | reg.exe			Registry editor that runs from a command line
-      21 | arp.exe			Used to display and modify entries in the Address Resolution Protocol (ARP) cache.
-      21 | nbtstat.exe			Utility that displays protocol statistics and current TCP/IP connections using NBT (NetBIOS over TCP/IP)
-      21 | mmc.exe			Microsoft Management Console; allows you to manage your Windows network with a variety of snap-ins
-      21 | msdt.exe			Microsoft's Diagnostic Troubleshooting Wizard
-      21 | control.exe			Windows Control Panel
-      20 | eqnedt32.exe			Part of the Microsoft Equation Editor
-      20 | nltest.exe			Command-line utility used to list domain controllers and enumerate domain trusts
-      19 | conhost.exe
-      19 | dsget.exe
-      19 | dsquery.exe
-      19 | gpresult.exe
-      19 | hostname.exe
-      19 | ipconfig.exe
-      19 | netstat.exe
-      19 | ping.exe
-      19 | qprocess.exe
-      19 | quser.exe
-      19 | qwinsta.exe
-      19 | systeminfo.exe
-      19 | tasklist.exe
-      19 | tracert.exe
-      18 | csrss.exe
-      18 | fltldr.exe
-      18 | wsmprovhost.exe
-      18 | msmpeng.exe
-      17 | bitsadmin.exe
-      17 | forfiles.exe
-      17 | ftp.exe
-      16 | hh.exe
-      15 | userinit.exe
-      13 | appcmd.exe
-      13 | chrome.exe
-      12 | werfaultsecure.exe
-      12 | compattelrunner.exe
-      12 | elevation_service.exe
-      12 | msedge.exe
-      12 | rdrcef.exe
-      11 | autochk.exe
-      11 | fsutil.exe
-      11 | logonui.exe
-      11 | psexesvc.exe
-      11 | taskhostw.exe
-      11 | vssadmin.exe
-      11 | wevtutil.exe
-      11 | winrshost.exe
-      11 | microsoftedgecp.exe
+      38 | services.exe
+      38 | smss.exe
+      37 | powershell.exe
+      34 | svchost.exe
+      32 | wininit.exe
+      26 | winlogon.exe
+      23 | net.exe
+      20 | cmd.exe
+      17 | MSBuild.exe
+      16 | net1.exe
+      16 | pwsh.exe
+      16 | regsvr32.exe
+      14 | csrss.exe
+      14 | ieexec.exe
+      14 | sc.exe
+      13 | certutil.exe
+      13 | netsh.exe
+      13 | WerFault.exe
+      13 | whoami.exe
+      13 | wmic.exe
+      12 | cmstp.exe
+      11 | atbroker.exe
+      11 | bginfo.exe
+      11 | cdb.exe
+      11 | csi.exe
+      11 | dnx.exe
+      11 | fsi.exe
+      11 | iexpress.exe
+      11 | Microsoft.Workflow.Compiler.exe
+      11 | odbcconf.exe
+      11 | rcsi.exe
+      11 | schtasks.exe
+      11 | wermgr.exe
+      11 | wscript.exe
+      11 | xwizard.exe
+      10 | cscript.exe
+      10 | dsget.exe
+      10 | dsquery.exe
       10 | dwm.exe
-      10 | microsoftedge.exe
-      10 | mobsync.exe
+      10 | gpresult.exe
+      10 | hostname.exe
+      10 | ipconfig.exe
+      10 | msxsl.exe
+      10 | nbtstat.exe
+      10 | netstat.exe
+      10 | nltest.exe
+      10 | ping.exe
+      10 | powershell_ise.exe
+      10 | qprocess.exe
+      10 | quser.exe
+      10 | qwinsta.exe
+      10 | reg.exe
+      10 | spoolsv.exe
+      10 | systeminfo.exe
+      10 | tasklist.exe
+      10 | tracert.exe
+       9 | autochk.exe
+       9 | lsass.exe
+       9 | mshta.exe
+       9 | rundll32.exe
+       8 | arp.exe
+       8 | bitsadmin.exe
+       8 | dllhost.exe
+       8 | forfiles.exe
+       8 | ftp.exe
+       8 | installutil.exe
+       8 | LogonUI.exe
+       8 | regasm.exe
+       8 | regsvcs.exe
+       8 | taskhost.exe
+       8 | userinit.exe
+       7 | SearchIndexer.exe
+       7 | taskhostw.exe
+       6 | appcmd.exe
+       6 | conhost.exe
+       6 | Dism.exe
+       6 | MsMpEng.exe
+       6 | process.parent.exe
+       6 | SearchProtocolHost.exe
+       6 | WerFaultSecure.exe
+       6 | wmiprvse.exe
+       5 | hh.exe
+       5 | wevtutil.exe
+       5 | winword.exe
+       4 | desktopimgdownldr.exe
+       4 | iexplore.exe
+       4 | MpCmdRun.exe
+       4 | msbuild.exe
+       4 | msiexec.exe
+       4 | narrator.exe
+       4 | process.exe
+       4 | TiWorker.exe
+       4 | w3wp.exe
+       4 | WINWORD.exe
+       3 | attrib.exe
+       3 | chkdsk.exe
+       3 | consent.exe
+       3 | csc.exe
+       3 | Disabledauditpol.exe
+       3 | displayswitch.exe
+       3 | doskey.exe
+       3 | excel.exe
+       3 | expand.exe
+       3 | explorer.exe
+       3 | extrac.exe
+       3 | fontdrvhost.exe
+       3 | fsutil.exe
+       3 | logman.exe
+       3 | Logman.exe
+       3 | LsaIso.exe
+       3 | magnify.exe
+       3 | makecab.exe
+       3 | osk.exe
+       3 | outlook.exe
+       3 | powerpnt.exe
+       3 | PsExec.exe
+       3 | regsvr64.exe
+       3 | RuntimeBroker.exe
+       3 | sethc.exe
+       3 | Systemsmss.exe
+       3 | utilman.exe
+       3 | vssadmin.exe
+       3 | wbadmin.exe
+       3 | WMIC.exe
+   
