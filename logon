@@ -1,9 +1,0 @@
-
-Multliple failed logons --> User failed to login X number of times in X minutes	4625 + threshold/filter
-Password spraying --> IP X failed to login to X number of accounts within X minutes	50+ 4625 events within 1 minute
-Logon Failure --> Username does not exist				4625 + 0xC0000064 
-Logon Failure --> Username is correct, password wrong 			4625 + 0xC000006A
-Logon Failure --> User is currently locked out				4625 + 0xC0000234
-Logon Failure --> Account is currently disabled				4625 + 0xC0000072
-Logon Failure --> User tried to login outside time restriction			4625 + 0xC000006F 
-Logon Failure --> User attempted to use expired account			4625 + 0xC0000193
