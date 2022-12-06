@@ -1,129 +1,128 @@
 # most frequently referenced EXEs in Elastic Detection Rules
 
-COUNT    | EXECUTABLE
------------------------------------------------------
-      38 | services.exe
-      38 | smss.exe
-      37 | powershell.exe
-      34 | svchost.exe
-      32 | wininit.exe
-      26 | winlogon.exe
-      23 | net.exe
-      20 | cmd.exe
-      17 | MSBuild.exe
-      16 | net1.exe
-      16 | pwsh.exe
-      16 | regsvr32.exe
-      14 | csrss.exe
-      14 | ieexec.exe
-      14 | sc.exe
-      13 | certutil.exe
-      13 | netsh.exe
-      13 | WerFault.exe
-      13 | whoami.exe
-      13 | wmic.exe
-      12 | cmstp.exe
-      11 | atbroker.exe
-      11 | bginfo.exe
-      11 | cdb.exe
-      11 | csi.exe
-      11 | dnx.exe
-      11 | fsi.exe
-      11 | iexpress.exe
-      11 | Microsoft.Workflow.Compiler.exe
-      11 | odbcconf.exe
-      11 | rcsi.exe
-      11 | schtasks.exe
-      11 | wermgr.exe
-      11 | wscript.exe
-      11 | xwizard.exe
-      10 | cscript.exe
-      10 | dsget.exe
-      10 | dsquery.exe
-      10 | dwm.exe
-      10 | gpresult.exe
-      10 | hostname.exe
-      10 | ipconfig.exe
-      10 | msxsl.exe
-      10 | nbtstat.exe
-      10 | netstat.exe
-      10 | nltest.exe
-      10 | ping.exe
-      10 | powershell_ise.exe
-      10 | qprocess.exe
-      10 | quser.exe
-      10 | qwinsta.exe
-      10 | reg.exe
-      10 | spoolsv.exe
-      10 | systeminfo.exe
-      10 | tasklist.exe
-      10 | tracert.exe
-       9 | autochk.exe
-       9 | lsass.exe
-       9 | mshta.exe
-       9 | rundll32.exe
-       8 | arp.exe
-       8 | bitsadmin.exe
-       8 | dllhost.exe
-       8 | forfiles.exe
-       8 | ftp.exe
-       8 | installutil.exe
-       8 | LogonUI.exe
-       8 | regasm.exe
-       8 | regsvcs.exe
-       8 | taskhost.exe
-       8 | userinit.exe
-       7 | SearchIndexer.exe
-       7 | taskhostw.exe
-       6 | appcmd.exe
-       6 | conhost.exe
-       6 | Dism.exe
-       6 | MsMpEng.exe
-       6 | process.parent.exe
-       6 | SearchProtocolHost.exe
-       6 | WerFaultSecure.exe
-       6 | wmiprvse.exe
-       5 | hh.exe
-       5 | wevtutil.exe
-       5 | winword.exe
-       4 | desktopimgdownldr.exe
-       4 | iexplore.exe
-       4 | MpCmdRun.exe
-       4 | msbuild.exe
-       4 | msiexec.exe
-       4 | narrator.exe
-       4 | process.exe
-       4 | TiWorker.exe
-       4 | w3wp.exe
-       4 | WINWORD.exe
-       3 | attrib.exe
-       3 | chkdsk.exe
-       3 | consent.exe
-       3 | csc.exe
-       3 | Disabledauditpol.exe
-       3 | displayswitch.exe
-       3 | doskey.exe
-       3 | excel.exe
-       3 | expand.exe
-       3 | explorer.exe
-       3 | extrac.exe
-       3 | fontdrvhost.exe
-       3 | fsutil.exe
-       3 | logman.exe
-       3 | Logman.exe
-       3 | LsaIso.exe
-       3 | magnify.exe
-       3 | makecab.exe
-       3 | osk.exe
-       3 | outlook.exe
-       3 | powerpnt.exe
-       3 | PsExec.exe
-       3 | regsvr64.exe
-       3 | RuntimeBroker.exe
-       3 | sethc.exe
-       3 | Systemsmss.exe
-       3 | utilman.exe
-       3 | vssadmin.exe
-       3 | wbadmin.exe
-       3 | WMIC.exe
-   
+38	services.exe
+38	smss.exe
+37	powershell.exe
+34	svchost.exe
+32	wininit.exe
+26	winlogon.exe
+23	net.exe
+20	cmd.exe
+17	MSBuild.exe
+16	net1.exe
+16	pwsh.exe
+16	regsvr32.exe
+14	csrss.exe
+14	ieexec.exe
+14	sc.exe
+13	certutil.exe
+13	netsh.exe
+13	WerFault.exe
+13	whoami.exe
+13	wmic.exe
+12	cmstp.exe
+11	atbroker.exe
+11	bginfo.exe
+11	cdb.exe
+11	csi.exe
+11	dnx.exe
+11	fsi.exe
+11	iexpress.exe
+11	Microsoft.Workflow.Compiler.exe
+11	odbcconf.exe
+11	rcsi.exe
+11	schtasks.exe
+11	wermgr.exe
+11	wscript.exe
+11	xwizard.exe
+10	cscript.exe
+10	dsget.exe
+10	dsquery.exe
+10	dwm.exe
+10	gpresult.exe
+10	hostname.exe
+10	ipconfig.exe
+10	msxsl.exe
+10	nbtstat.exe
+10	netstat.exe
+10	nltest.exe
+10	ping.exe
+10	powershell_ise.exe
+10	qprocess.exe
+10	quser.exe
+10	qwinsta.exe
+10	reg.exe
+10	spoolsv.exe
+10	systeminfo.exe
+10	tasklist.exe
+10	tracert.exe
+9	autochk.exe
+9	lsass.exe
+9	mshta.exe
+9	rundll32.exe
+8	arp.exe
+8	bitsadmin.exe
+8	dllhost.exe
+8	forfiles.exe
+8	ftp.exe
+8	installutil.exe
+8	LogonUI.exe
+8	regasm.exe
+8	regsvcs.exe
+8	taskhost.exe
+8	userinit.exe
+7	SearchIndexer.exe
+7	taskhostw.exe
+6	appcmd.exe
+6	conhost.exe
+6	Dism.exe
+6	MsMpEng.exe
+6	process.parent.exe
+6	SearchProtocolHost.exe
+6	WerFaultSecure.exe
+6	wmiprvse.exe
+5	hh.exe
+5	wevtutil.exe
+5	winword.exe
+4	desktopimgdownldr.exe
+4	iexplore.exe
+4	MpCmdRun.exe
+4	msbuild.exe
+4	msiexec.exe
+4	narrator.exe
+4	process.exe
+4	TiWorker.exe
+4	w3wp.exe
+4	WINWORD.exe
+3	attrib.exe
+3	chkdsk.exe
+3	consent.exe
+3	csc.exe
+3	Disabledauditpol.exe
+3	displayswitch.exe
+3	doskey.exe
+3	excel.exe
+3	expand.exe
+3	explorer.exe
+3	extrac.exe
+3	fontdrvhost.exe
+3	fsutil.exe
+3	logman.exe
+3	Logman.exe
+3	LsaIso.exe
+3	magnify.exe
+3	makecab.exe
+3	osk.exe
+3	outlook.exe
+3	powerpnt.exe
+3	PsExec.exe
+3	regsvr64.exe
+3	RuntimeBroker.exe
+3	sethc.exe
+3	Systemsmss.exe
+3	utilman.exe
+3	vssadmin.exe
+3	wbadmin.exe
+3	WMIC.exe
+   	
+
